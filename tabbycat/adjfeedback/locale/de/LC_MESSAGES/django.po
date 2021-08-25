@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2021-04-02 04:52\n"
+"PO-Revision-Date: 2021-08-25 13:59\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -87,7 +87,7 @@ msgstr[1] ""
 
 #: adjfeedback/apps.py:7
 msgid "Adjudicator Feedback"
-msgstr "JurorIn-Feedback"
+msgstr "Jurorenfeedback"
 
 #: adjfeedback/forms.py:26
 msgid "chair"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: adjfeedback/forms.py:29
 msgid "trainee"
-msgstr "Jurierlehrling"
+msgstr "Trainee"
 
 #. Translators: Please leave this blank, it should be left for the base Django translations.
 #: adjfeedback/forms.py:57
@@ -355,7 +355,7 @@ msgstr ""
 
 #: adjfeedback/models.py:164
 msgid "required"
-msgstr "benötigt"
+msgstr "verpflichtend"
 
 #: adjfeedback/models.py:165
 msgid "Whether participants are required to fill out this field"
@@ -403,11 +403,11 @@ msgstr ""
 
 #: adjfeedback/models.py:246
 msgid "adjudicator feedback"
-msgstr "JurorIn-Feedback"
+msgstr "jurorenfeedback"
 
 #: adjfeedback/models.py:247
 msgid "adjudicator feedbacks"
-msgstr "JurorIn-Feedbacks"
+msgstr "jurorenfeedback"
 
 #: adjfeedback/models.py:307
 msgid "Either the source adjudicator or source team wasn't specified."
@@ -499,7 +499,7 @@ msgstr ""
 #: adjfeedback/templates/add_feedback.html:6
 #: adjfeedback/templates/enter_feedback.html:5
 msgid "Enter Feedback"
-msgstr "Feedback übermitteln"
+msgstr "Feedback abschicken"
 
 #: adjfeedback/templates/enter_feedback.html:9
 #: adjfeedback/templates/public_add_feedback.html:13
@@ -551,7 +551,7 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_base.html:24
 msgid "Comments"
-msgstr ""
+msgstr "Freitextfeld"
 
 #: adjfeedback/templates/feedback_base.html:28
 msgid "By Source"
@@ -774,8 +774,8 @@ msgstr ""
 #, python-format
 msgid "%(c_trainees)s trainee"
 msgid_plural "%(c_trainees)s trainees"
-msgstr[0] "%(c_trainees)s Jurierlehrling"
-msgstr[1] "%(c_trainees)s Jurierlehrlingen"
+msgstr[0] "%(c_trainees)s Trainee"
+msgstr[1] "%(c_trainees)s Trainees"
 
 #: adjfeedback/templates/overview_breakdowns.html:123
 #, python-format
@@ -837,7 +837,7 @@ msgstr ""
 
 #: adjfeedback/templates/update_adjudicator_scores.html:58
 msgid "Submit"
-msgstr "Übermitteln"
+msgstr "Abschicken"
 
 #: adjfeedback/views.py:118
 msgid "Feedback Overview"
@@ -856,7 +856,7 @@ msgstr[1] ""
 
 #: adjfeedback/views.py:156 adjfeedback/views.py:182 adjfeedback/views.py:197
 msgid "Feedbacks"
-msgstr "Feedbacks"
+msgstr "Feedback"
 
 #: adjfeedback/views.py:163
 msgid "Find Feedback"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2021-06-20 05:34\n"
+"PO-Revision-Date: 2021-08-25 13:42\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -182,7 +182,7 @@ msgstr ""
 
 #: checkins/views.py:176 templates/nav/admin_nav.html:210
 msgid "Speakers"
-msgstr "RednerInnen"
+msgstr "Redner"
 
 #: checkins/views.py:181 templates/nav/public_nav.html:145
 msgid "Adjudicators"
@@ -480,7 +480,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html:89
 msgid "Emails"
-msgstr "Emails"
+msgstr "E-Mails"
 
 #: templates/nav/admin_nav.html:93
 msgid "Preformed Panels"
@@ -516,7 +516,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html:159
 msgid "Comments"
-msgstr ""
+msgstr "Freitextfeld"
 
 #: templates/nav/admin_nav.html:162
 msgid "Find by Source"
@@ -639,7 +639,7 @@ msgstr "Teamtab"
 
 #: templates/nav/public_nav.html:22
 msgid "Speaker Tab"
-msgstr "RednerInnentab"
+msgstr "Einzelrednertab"
 
 #: templates/nav/public_nav.html:40
 msgid "Replies Tab"
@@ -723,7 +723,7 @@ msgstr ""
 
 #: templates/nav/top_nav_base.html:105
 msgid "Login"
-msgstr "Einloggen"
+msgstr "Anmelden"
 
 #: templates/registration/logged_out.html:5
 msgid "Goodbye"
@@ -737,7 +737,7 @@ msgstr ""
 #: templates/registration/login.html:4
 msgctxt "page title"
 msgid "Login"
-msgstr "Einloggen"
+msgstr "Anmelden"
 
 #: templates/registration/login.html:29
 msgctxt "page title"

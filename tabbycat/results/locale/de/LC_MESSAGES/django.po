@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2021-04-02 04:53\n"
+"PO-Revision-Date: 2021-08-25 13:50\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -208,7 +208,7 @@ msgstr "Debatte"
 
 #: results/models.py:110
 msgid "motion"
-msgstr "thema"
+msgstr "Thema"
 
 #: results/models.py:112
 msgid "discarded"
@@ -525,7 +525,7 @@ msgstr ""
 
 #: results/templates/ballot/ballot_set.html:35
 msgid "Trainee"
-msgstr "Jurierlehrling"
+msgstr "Trainee"
 
 #: results/templates/ballot/ballot_set.html:44
 msgid "Assign sides before entering scores"

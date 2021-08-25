@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-29 23:49-0400\n"
-"PO-Revision-Date: 2020-12-30 04:08\n"
+"PO-Revision-Date: 2021-08-25 13:50\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: standings/diversity.py:177
 msgid "Trainees"
-msgstr "Jurierlehrlingen"
+msgstr "Trainees"
 
 #: standings/diversity.py:209
 msgid "Average Rating"
@@ -141,7 +141,7 @@ msgstr ""
 
 #: standings/speakers.py:59 standings/speakers.py:117
 msgid "Avg"
-msgstr "Avg"
+msgstr "⌀"
 
 #: standings/speakers.py:66
 msgid "team points"
@@ -483,7 +483,7 @@ msgstr ""
 
 #: standings/templates/standings_menu.html:32
 msgid "Speakers"
-msgstr "RednerInnen"
+msgstr "Redner"
 
 #: standings/templates/standings_menu.html:37
 msgctxt "Substantive speeches"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: standings/views.py:326
 msgid "Speaker Tab"
-msgstr "RednerInnentab"
+msgstr "Einzelrednertab"
 
 #: standings/views.py:341
 #, python-format
@@ -571,7 +571,7 @@ msgstr ""
 #: standings/views.py:359
 #, python-format
 msgid "%(category)s Speaker Tab"
-msgstr "%(category)s RednerInnentab"
+msgstr "%(category)s Rednertab"
 
 #: standings/views.py:372
 msgid "Reply Speaker Standings"

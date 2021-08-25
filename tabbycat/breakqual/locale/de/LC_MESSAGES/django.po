@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2020-07-05 17:08\n"
+"PO-Revision-Date: 2021-08-25 13:42\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -318,7 +318,7 @@ msgstr "Überblick"
 
 #: breakqual/templates/breakqual_subnav.html:15
 msgid "Adjudicators' Break"
-msgstr "JurorInnen Break"
+msgstr "Jurorenbreak"
 
 #: breakqual/templates/edit_break_eligibility.html:7
 #, python-format
@@ -341,7 +341,7 @@ msgstr "Finale"
 
 #: breakqual/utils.py:129
 msgid "GF"
-msgstr "GF"
+msgstr "F"
 
 #. Translators: abbreviation for "semifinals"
 #: breakqual/utils.py:131
@@ -507,7 +507,7 @@ msgstr ""
 
 #: breakqual/views.py:209
 msgid "Breaking Adjudicators"
-msgstr "Breakende JurorInnen"
+msgstr "Breakende Juroren"
 
 #: breakqual/views.py:274
 msgid "Break Eligibility"
