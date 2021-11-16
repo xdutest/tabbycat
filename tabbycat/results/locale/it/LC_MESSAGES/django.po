@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2021-06-25 17:29\n"
+"PO-Revision-Date: 2021-11-16 16:18\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -204,7 +204,7 @@ msgstr ""
 
 #: results/models.py:108
 msgid "debate"
-msgstr ""
+msgstr "dibattito"
 
 #: results/models.py:110
 msgid "motion"
