@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2021-11-16 16:18\n"
+"PO-Revision-Date: 2021-11-16 16:31\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -64,11 +64,11 @@ msgstr "Assegnazione del giudice"
 
 #: adjallocation/consumers.py:59
 msgid "Draw is already released, unrelease draw to redo auto-allocations."
-msgstr ""
+msgstr "Il sorteggio è già stato rilasciato, annullare il sorteggio per rifare le allocazioni automatice."
 
 #: adjallocation/consumers.py:63
 msgid "Draw is not confirmed, confirm draw to run auto-allocations."
-msgstr ""
+msgstr "Il sorteggio non è confermato, conferma il sorteggio per eseguire allocazioni automatice."
 
 #: adjallocation/consumers.py:69
 msgid "There are no preformed panels available to allocate."
@@ -163,11 +163,11 @@ msgstr ""
 
 #: adjallocation/models.py:34
 msgid "debate adjudicator"
-msgstr ""
+msgstr "giudice del dibattito"
 
 #: adjallocation/models.py:35
 msgid "debate adjudicators"
-msgstr ""
+msgstr "giudici del dibattito"
 
 #: adjallocation/models.py:50 adjallocation/models.py:95
 msgid "team"
