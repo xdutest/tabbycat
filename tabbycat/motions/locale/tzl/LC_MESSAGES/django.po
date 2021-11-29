@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-30 01:01-0400\n"
-"PO-Revision-Date: 2020-12-30 05:08\n"
+"PO-Revision-Date: 2021-11-29 01:59\n"
 "Last-Translator: \n"
 "Language-Team: Talossan\n"
 "Language: tzl_TZL\n"
@@ -170,15 +170,15 @@ msgstr[1] "crwdns31034:5%(ndebates)scrwdne31034:5"
 #, python-format
 msgid "%(advancing)s of %(ndebates)s team on %(side)s (%(percentage)s%%) advanced"
 msgid_plural "%(advancing)s of %(ndebates)s teams on %(side)s (%(percentage)s%%) advanced"
-msgstr[0] "crwdns31036:1%(advancing)scrwdnd31036:1%(ndebates)scrwdnd31036:1%(side)scrwdnd31036:1%(percentage)scrwdnd31036:1%%crwdne31036:1"
-msgstr[1] "crwdns31036:5%(advancing)scrwdnd31036:5%(ndebates)scrwdnd31036:5%(side)scrwdnd31036:5%(percentage)scrwdnd31036:5%%crwdne31036:5"
+msgstr[0] "crwdns31036:1%(advancing)scrwdnd31036:1%(ndebates)scrwdnd31036:1%(side)scrwdnd31036:1%(percentage)scrwdne31036:1"
+msgstr[1] "crwdns31036:5%(advancing)scrwdnd31036:5%(ndebates)scrwdnd31036:5%(side)scrwdnd31036:5%(percentage)scrwdne31036:5"
 
 #: motions/templates/motion_statistics_bp_elim.html:31
 #, python-format
 msgid "%(eliminated)s of %(ndebates)s team on %(side)s (%(percentage)s%%) were eliminated"
 msgid_plural "%(eliminated)s of %(ndebates)s teams on %(side)s (%(percentage)s%%) were eliminated"
-msgstr[0] "crwdns31038:1%(eliminated)scrwdnd31038:1%(ndebates)scrwdnd31038:1%(side)scrwdnd31038:1%(percentage)scrwdnd31038:1%%crwdne31038:1"
-msgstr[1] "crwdns31038:5%(eliminated)scrwdnd31038:5%(ndebates)scrwdnd31038:5%(side)scrwdnd31038:5%(percentage)scrwdnd31038:5%%crwdne31038:5"
+msgstr[0] "crwdns31038:1%(eliminated)scrwdnd31038:1%(ndebates)scrwdnd31038:1%(side)scrwdnd31038:1%(percentage)scrwdne31038:1"
+msgstr[1] "crwdns31038:5%(eliminated)scrwdnd31038:5%(ndebates)scrwdnd31038:5%(side)scrwdnd31038:5%(percentage)scrwdne31038:5"
 
 #: motions/templates/motion_statistics_bp_elim.html:41
 msgid "advanced"
@@ -243,8 +243,8 @@ msgstr[1] "crwdns34154:5%(ndebates)scrwdne34154:5"
 #, python-format
 msgid "%(count)s result for %(side)s (%(percentage)s%%) were for %(points)s points"
 msgid_plural "%(count)s results for %(side)s (%(percentage)s%%) were for %(points)s points"
-msgstr[0] "crwdns31054:1%(count)scrwdnd31054:1%(side)scrwdnd31054:1%(percentage)scrwdnd31054:1%%crwdnd31054:1%(points)scrwdne31054:1"
-msgstr[1] "crwdns31054:5%(count)scrwdnd31054:5%(side)scrwdnd31054:5%(percentage)scrwdnd31054:5%%crwdnd31054:5%(points)scrwdne31054:5"
+msgstr[0] "crwdns31054:1%(count)scrwdnd31054:1%(side)scrwdnd31054:1%(percentage)scrwdnd31054:1%(points)scrwdne31054:1"
+msgstr[1] "crwdns31054:5%(count)scrwdnd31054:5%(side)scrwdnd31054:5%(percentage)scrwdnd31054:5%(points)scrwdne31054:5"
 
 #: motions/templates/motion_statistics_bp_prelim.html:101
 #, python-format
