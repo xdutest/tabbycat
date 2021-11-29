@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2021-08-25 13:42\n"
+"PO-Revision-Date: 2021-11-29 01:58\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -607,7 +607,7 @@ msgstr ""
 
 #: templates/nav/assistant_nav.html:11 templates/nav/public_nav.html:211
 msgid "Enter Feedback"
-msgstr "Feedback übermitteln"
+msgstr "Feedback abschicken"
 
 #: templates/nav/assistant_nav.html:22
 msgid "Participants List"
