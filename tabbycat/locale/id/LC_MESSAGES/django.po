@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2021-11-29 02:16\n"
+"PO-Revision-Date: 2021-12-01 12:28\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -339,7 +339,7 @@ msgstr[0] "Saat ini Anda menggunakan %(nrows)s baris di dalam basisdata Anda. Ji
 
 #: templates/errors/legacy_sendgrid_warning.html:11
 msgid "It looks like you're using the old SendGrid config vars on Heroku, <code>SENDGRID_USERNAME</code> and <code>SENDGRID_PASSWORD</code>. These are now deprecated (as of version 2.6), and will stop working in a future version of Tabbycat. Please change your config vars to use <code>SENDGRID_API_KEY</code> instead. For more information, please see <a href=\"https://tabbycat.readthedocs.io/en/stable/features/notifications.html#configuring-an-email-provider\"> our documentation on this topic</a>."
-msgstr ""
+msgstr "Sepertinya anda menggunakan konfigurasi lama dari SendGrid config vars pada Heroku, <code>SENDGRID_USERNAME</code> dan <code>SENDGRID_PASSWORD</code>. Konfigurasi tersebut sudah tidak digunakan lagi (semenjak versi 2.6), dan akan berhenti digunakan untuk versi-versi terbaru Tabbycat. Mohon ubah config vars menjadi <code>SENDGRID_API_KEY</code>. Untuk informasi lebih lanjutkan, silahkan membaca <ahref=\"https://tabbycat.readthedocs.io/en/stable/features/notifications.html#configuring-an-email-provider\"> untuk dokumentasi dari kami mengenai topik ini."
 
 #: templates/errors/public_403.html:14
 #, python-format
@@ -921,17 +921,17 @@ msgstr "<strong>Perhatian:</strong> Anda tidak semestinya menghapus pengguna dar
 
 #: users/templates/signup.html:4 users/templates/signup.html:5
 msgid "Sign-Up"
-msgstr ""
+msgstr "Mendaftar"
 
 #: users/templates/signup.html:16
 msgctxt "page title"
 msgid "Create a New Administrator Account"
-msgstr ""
+msgstr "Membuat Sebuah Akun Administrator Baru"
 
 #: users/templates/signup.html:18
 msgctxt "page title"
 msgid "Create a New Assistant Account"
-msgstr ""
+msgstr "Membukan Sebuah Akun Asisten Baru"
 
 #: users/templates/signup.html:25
 msgid "Create Account"
@@ -939,11 +939,11 @@ msgstr "Buat Akun"
 
 #: users/views.py:54
 msgid "You have successfully created a new administrator account."
-msgstr ""
+msgstr "Anda telah berhasil membuat sebuah akun administrator baru."
 
 #: users/views.py:56
 msgid "You have successfully created a new assistant account."
-msgstr ""
+msgstr "Anda telah berhasil membuat sebuah akun asisten baru."
 
 #: users/views.py:84
 msgid "Whoops! It looks like someone's already created the first user account. Please log in."
