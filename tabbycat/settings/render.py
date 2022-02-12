@@ -35,13 +35,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 # Caching
 # ==============================================================================
 
-REDIS_URL = 'redis://127.0.0.1:6379/1'
-
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
-    }
-}
+REDIS_URL = 'redis://tc-redis:10000'
 
 CACHES = {
     "default": {
@@ -59,7 +53,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": REDIS_URL,
+            "hosts": [REDIS_URL],
             # Remove channels from groups after 3 hours
             # This matches websocket_timeout in Daphne
             "group_expiry": 10800,

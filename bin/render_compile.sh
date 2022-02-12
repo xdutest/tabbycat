@@ -5,8 +5,6 @@ set -o errexit
 echo "-----> Install dependencies"
 pip install -r ./config/requirements_core.txt
 pip install -r ./config/requirements_render.txt
-apt-get update -y
-apt-get install -y redis-server
 
 echo "-----> I'm post-compile hook"
 cd ./tabbycat/
@@ -24,8 +22,5 @@ npm run build
 
 echo "-----> Running static files compilation"
 python manage.py collectstatic --noinput
-
-echo "-----> Booting redis"
-redis-server
 
 echo "-----> Post-compile done"
