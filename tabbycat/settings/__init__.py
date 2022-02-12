@@ -24,5 +24,8 @@ if os.environ.get('DJANGO_SECRET_KEY', ''):
 if os.environ.get('LOCAL_DEVELOPMENT', ''):
     base_settings.append('development.py')
 
+if os.environ.get('RENDER', ''):
+    base_settings.append('render.py')
+
 
 include(*base_settings)
