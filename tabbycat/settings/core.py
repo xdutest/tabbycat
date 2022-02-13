@@ -214,6 +214,7 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 # Static Files and Compilation
 # ==============================================================================
 
+USE_WEBPACK_SERVER = False
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
@@ -224,7 +225,7 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
 
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # ==============================================================================
 # Logging

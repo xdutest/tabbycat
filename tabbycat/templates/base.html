@@ -189,17 +189,7 @@
       }
     </script>
 
-    {% if hmr %}
-      <!-- webpack dev server (live js) -->
-      <script type="text/javascript" src="http://localhost:8888/js/app.js"></script>
-      <!-- livereload (live css) -->
-      <script>
-        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
-        ':35729/livereload.js?snipver=1"></' + 'script>')
-      </script>
-    {% else %}
-      <script type="text/javascript" src="{% static 'vue/js/app.js' %}"></script>
-    {% endif %}
+    <script type="text/javascript" src="{% static 'vue/js/app.js' %}"></script>
 
   {% endblock js %}
 

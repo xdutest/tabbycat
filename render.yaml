@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: "./bin/render_compile.sh"
-    startCommand: "gunicorn wsgi:application --config './config/gunicorn.conf'"
+    startCommand: "python tabbycat/run-asgi.py"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
