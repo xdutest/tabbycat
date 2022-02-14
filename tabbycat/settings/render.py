@@ -18,13 +18,6 @@ if RENDER_EXTERNAL_HOSTNAME:
 
 
 # ==============================================================================
-# User Sessions
-# ==============================================================================
-
-SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
-
-
-# ==============================================================================
 # Static Files
 # ==============================================================================
 
@@ -35,12 +28,11 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 # Caching
 # ==============================================================================
 
-REDIS_URL = 'redis://tc-redis:10000'
 
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": REDIS_URL,
+        "LOCATION": "redis://tc-redis:10000",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
             "SOCKET_CONNECT_TIMEOUT": 5,
@@ -49,17 +41,22 @@ CACHES = {
     },
 }
 
+# In Memory Layer
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {
-            "hosts": [REDIS_URL],
-            # Remove channels from groups after 3 hours
-            # This matches websocket_timeout in Daphne
-            "group_expiry": 10800,
-        },
-    },
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+    }
 }
+
+# Render Redis via Docker
+# CHANNEL_LAYERS = {
+#     "default": {
+#         "BACKEND": "channels_redis.core.RedisChannelLayer",
+#         "CONFIG": {
+#             "hosts": [("redis://tc-redis", 10000)],
+#         },
+#     },
+# }
 
 
 # ==============================================================================

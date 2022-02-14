@@ -2,10 +2,6 @@
 import logging
 import sys
 
-import asgi
-import uvicorn
-
-
 # Setup logging
 root = logging.getLogger()
 root.setLevel(logging.DEBUG)
@@ -14,7 +10,31 @@ ch.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 ch.setFormatter(formatter)
 root.addHandler(ch)
-root.info('TC_DEPLOY: Initialising uvicorn')
 
-# Start Uvicorn
-uvicorn.run(asgi.application, log_level="info", proxy_headers=True)
+# import uvicorn # noqa: E402
+
+# Start Uvicorn. Render deploys must bind to 0.0 not localhost or 127.0
+# root.info('TC_DEPLOY: Initialising uvicorn')
+# uvicorn.run("asgi:application", log_level="info", host="0.0.0.0", proxy_headers=True)
+
+import asgi # noqa: E402
+from daphne.endpoints import build_endpoint_description_strings # noqa: E402
+from daphne.server import Server # noqa: E402
+
+root.info('TC_DEPLOY: Initialising daphne')
+Server(
+    application=asgi.application,
+    endpoints=build_endpoint_description_strings(
+        host="0.0.0.0",
+        port="8000",
+    ),
+    ping_interval=15,
+    ping_timeout=30,
+    websocket_timeout=10800, # 3 hours maximum length
+    websocket_connect_timeout=10,
+    application_close_timeout=10,
+    verbosity=2,
+    proxy_forwarded_address_header="X-Forwarded-For",
+    proxy_forwarded_port_header="X-Forwarded-Port",
+    proxy_forwarded_proto_header="X-Forwarded-Proto",
+).run()

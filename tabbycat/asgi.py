@@ -1,46 +1,46 @@
-"""
-ASGI entrypoint. Configures Django and then runs the application
-defined in the ASGI_APPLICATION setting.
-"""
-
-import logging
 import os
 
-import django
-
-from channels.routing import get_default_application
-
-from settings.core import TABBYCAT_VERSION
+from channels.auth import AuthMiddlewareStack
+from channels.routing import ChannelNameRouter, ProtocolTypeRouter, URLRouter
+from django.conf.urls import url
+from django.core.asgi import get_asgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
+django_asgi_app = get_asgi_application()
 
-if not os.environ.get('DISABLE_SENTRY'):
-    import sentry_sdk
+from actionlog.consumers import ActionLogEntryConsumer # noqa: E402 (has to come after settings)
+from adjallocation.consumers import AdjudicatorAllocationWorkerConsumer, PanelEditConsumer # noqa: E402 (has to come after settings)
+from checkins.consumers import CheckInEventConsumer # noqa: E402 (has to come after settings)
+from draw.consumers import DebateEditConsumer # noqa: E402 (has to come after settings)
+from notifications.consumers import NotificationQueueConsumer # noqa: E402 (has to come after settings)
+from results.consumers import BallotResultConsumer, BallotStatusConsumer # noqa: E402 (has to come after settings)
+from venues.consumers import VenuesWorkerConsumer # noqa: E402 (has to come after settings)
 
-    from sentry_sdk.integrations.asgi import SentryAsgiMiddleware
-    from sentry_sdk.integrations.django import DjangoIntegration
-    from sentry_sdk.integrations.logging import LoggingIntegration
-    from sentry_sdk.integrations.redis import RedisIntegration
+application = ProtocolTypeRouter({
 
-    sentry_sdk.init(
-        dsn="https://6bf2099f349542f4b9baf73ca9789597@o85113.ingest.sentry.io/185382",
-        integrations=[
-            DjangoIntegration(),
-            LoggingIntegration(event_level=logging.WARNING),
-            RedisIntegration(),
-        ],
-        send_default_pii=True,
-        release=TABBYCAT_VERSION,
-    )
+    # Django's ASGI application to handle traditional HTTP requests
+    "http": get_asgi_application(),
 
-    # Override dictionary trimming so that all preferences will be included in Sentry reports
-    # https://forum.sentry.io/t/python-sdk-extra-data-capped-at-400-characters/6909
-    sentry_sdk.serializer.MAX_DATABAG_BREADTH = 200
+    # WebSocket handlers
+    "websocket": AuthMiddlewareStack(
+        URLRouter([
+            # TournamentOverviewContainer
+            url(r'^ws/(?P<tournament_slug>[-\w_]+)/action_logs/$', ActionLogEntryConsumer.as_asgi()),
+            url(r'^ws/(?P<tournament_slug>[-\w_]+)/ballot_results/$', BallotResultConsumer.as_asgi()),
+            url(r'^ws/(?P<tournament_slug>[-\w_]+)/ballot_statuses/$', BallotStatusConsumer.as_asgi()),
+            # CheckInStatusContainer
+            url(r'^ws/(?P<tournament_slug>[-\w_]+)/checkins/$', CheckInEventConsumer.as_asgi()),
+            # Draw and Preformed Panel Edits
+            url(r'^ws/(?P<tournament_slug>[-\w_]+)/round/(?P<round_seq>[-\w_]+)/debates/$', DebateEditConsumer.as_asgi()),
+            url(r'^ws/(?P<tournament_slug>[-\w_]+)/round/(?P<round_seq>[-\w_]+)/panels/$', PanelEditConsumer.as_asgi()),
+        ]),
+    ),
 
-django.setup()
-
-if os.environ.get('DISABLE_SENTRY'):
-    application = get_default_application()
-else:
-    # Wrap ASGI middleware; as per docs.sentry.io/platforms/python/asgi/
-    application = SentryAsgiMiddleware(get_default_application())
+    # Worker handlers (which don't need a URL/protocol)
+    "channel": ChannelNameRouter({
+        # Name used in runworker cmd : SyncConsumer responsible
+        "notifications":  NotificationQueueConsumer, # Email sending
+        "adjallocation": AdjudicatorAllocationWorkerConsumer,
+        "venues": VenuesWorkerConsumer,
+    }),
+})

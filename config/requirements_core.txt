@@ -33,8 +33,8 @@ psycopg2==2.9.2                         # For Django to talk to postgres
 
 # Channels
 asgiref==3.4.0                          # Must set version to avoid Channels bug #1713
-channels==2.4.0                         # Channels; also includes the Daphne server
-channels_redis==3.2.0                   # Channels Layer
+channels==3.0.4                         # Channels; also includes the Daphne server
+channels_redis==3.3.1                   # Use redis as the backing store for Channels
 
 # Misc
 ipython==7.*
