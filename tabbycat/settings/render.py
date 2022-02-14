@@ -28,7 +28,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 # Caching
 # ==============================================================================
 
-
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
@@ -37,26 +36,19 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
             "SOCKET_CONNECT_TIMEOUT": 5,
             "SOCKET_TIMEOUT": 60,
+            "IGNORE_EXCEPTIONS": True, # Don't crash on say ConnectionError due to limits
         },
     },
 }
 
-# In Memory Layer
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer"
-    }
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("redis://tc-redis", 10000)],
+        },
+    },
 }
-
-# Render Redis via Docker
-# CHANNEL_LAYERS = {
-#     "default": {
-#         "BACKEND": "channels_redis.core.RedisChannelLayer",
-#         "CONFIG": {
-#             "hosts": [("redis://tc-redis", 10000)],
-#         },
-#     },
-# }
 
 
 # ==============================================================================

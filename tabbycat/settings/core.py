@@ -309,7 +309,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 # Channels
 # ==============================================================================
 
-ASGI_APPLICATION = "routing.application"
+ASGI_APPLICATION = "asgi.application"
 
 CHANNEL_LAYERS = {
     "default": {

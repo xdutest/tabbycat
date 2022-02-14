@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: tc_app
+    name: tabbycat
     env: python
     plan: free
     buildCommand: "./bin/render_compile.sh"

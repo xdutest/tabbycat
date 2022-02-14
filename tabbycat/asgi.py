@@ -39,8 +39,8 @@ application = ProtocolTypeRouter({
     # Worker handlers (which don't need a URL/protocol)
     "channel": ChannelNameRouter({
         # Name used in runworker cmd : SyncConsumer responsible
-        "notifications":  NotificationQueueConsumer, # Email sending
-        "adjallocation": AdjudicatorAllocationWorkerConsumer,
-        "venues": VenuesWorkerConsumer,
+        "notifications":  NotificationQueueConsumer.as_asgi(), # Email sending
+        "adjallocation": AdjudicatorAllocationWorkerConsumer.as_asgi(),
+        "venues": VenuesWorkerConsumer.as_asgi(),
     }),
 })
