@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: "./bin/render_compile.sh"
-    startCommand: "python tabbycat/run-asgi.py"
+    startCommand: "npm run serve-render"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
