@@ -12,6 +12,9 @@ if os.environ.get('DJANGO_SECRET_KEY'):
 # https://docs.djangoproject.com/en/3.0/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []
 
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
@@ -28,10 +31,13 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 # Caching
 # ==============================================================================
 
+REDIS_HOSTNAME = os.environ.get('REDIS_HOSTNAME')
+REDIS_PORT = os.environ.get('REDIS_PORT')
+
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://tc-redis:10000",
+        "LOCATION": "redis://" + REDIS_HOSTNAME + ":" + REDIS_PORT,
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
             "SOCKET_CONNECT_TIMEOUT": 5,
@@ -45,7 +51,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [("redis://tc-redis", 10000)],
+            "hosts": ["redis://" + REDIS_HOSTNAME + ":" + REDIS_PORT],
         },
     },
 }

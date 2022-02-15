@@ -1,5 +1,6 @@
 # Note: Needs to be in this directory for the proper asgi import
 import logging
+import os
 import sys
 
 # Setup logging
@@ -11,11 +12,19 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 ch.setFormatter(formatter)
 root.addHandler(ch)
 
+# debug for Render.com
+
+root.info('REDIS_HOSTNAME: %s' % (os.environ.get('REDIS_HOSTNAME') if os.environ.get('REDIS_HOSTNAME') else "NONE"))
+root.info('REDIS_PORT: %s' % (os.environ.get('REDIS_PORT') if os.environ.get('REDIS_PORT') else "NONE"))
+
+# UVICORN setup
 # import uvicorn # noqa: E402
 
 # Start Uvicorn. Render deploys must bind to 0.0 not localhost or 127.0
 # root.info('TC_DEPLOY: Initialising uvicorn')
 # uvicorn.run("asgi:application", log_level="info", host="0.0.0.0", proxy_headers=True)
+
+# DAPHNE setup
 
 import asgi # noqa: E402
 from daphne.endpoints import build_endpoint_description_strings # noqa: E402

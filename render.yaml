@@ -10,6 +10,10 @@ services:
         fromDatabase:
           name: tc_db
           property: connectionString
+      - key: REDIS_HOSTNAME
+        sync: false
+      - key: REDIS_PORT
+        sync: false
       - key: DJANGO_SECRET_KEY
         generateValue: true
       - key: WEB_CONCURRENCY
@@ -18,19 +22,6 @@ services:
         sync: false
       - key: TIME_ZONE
         sync: false
-  - type: pserv
-    name: tc_redis
-    env: docker
-    repo: https://github.com/render-examples/redis.git # optional
-    envVars:
-      - key: GENERATED_SECRET
-        generateValue: true # will generate a base64-encoded 256-bit secret
-      - key: DASHBOARD_SECRET
-        generateValue: true # will generate a base64-encoded 256-bit secret
-    disk:
-      name: redis-data
-      mountPath: /var/lib/redis
-      sizeGB: 1 # optional
 
 databases:
   - name: tc_db
