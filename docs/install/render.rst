@@ -4,25 +4,24 @@
 Installing on Render
 ====================
 
-Render is a web hosting platform, similar to Heroku. Support for deploying Tabbycat to Render is currently **very experimental**. Please note:
+Render is a web hosting platform, similar to Heroku. Like Heroku, it provides a similar '1 click' method of deployment that should be approachable to people without experience in deploying web applications. Support for deploying Tabbycat to Render is currently **in beta**.
 
-- Render provides a similar '1 click' method as to Heroku; e.g. it should be approachable to people without experience in deploying web applications
-- Although Tabbycat is setup to run within the free-tier of Render, you may need to add a credit card to your account in order to deploy Tabbycat
-- Tabbycat's performance on Render is not optimised. Don't use Render if you are going to have lots of people accessing your tab site
-- Render's free-tier database will **stop working and delete all your data after 90 days**. If you want to keep your tab data around for the long term, you must backup your data and host it elsewhere after the tournament ends
-- Some Tabbycat functionality will not work (yet). As of the 14th of Feb, this includes:
-   - Automatic allocation of adjudicators and venues
-   - All email-related functionality
-   - Possibly some other stuff we haven't noticed yet
+.. admonition:: Warning
+  :class: warning
+
+  The most important difference between Render and Heroku is that **after 90 days, Render's free-tier database will stop working and delete all your data**. If you want to keep your tab data around for the long term, you must backup your data and host it elsewhere after the tournament ends
+
+Please also note:
+
+- Although Tabbycat is setup to run within the free-tier of Render, you may need to add a credit card to your account in order to create your account
+- While Render might run faster for small tournaments, we are unclear how well it runs at a larger scale and how best to employ Render's scaling tools
 
 To deploy to Render, follow the instructions below.
 
 1. Signup
 =========
 
-`Follow this link <https://dashboard.render.com/register?next=/>`_ and sign-up for the Render service.
-
-Login when finished, and navigate to your *Dashboard*.
+`Follow this link <https://dashboard.render.com/register?next=/>`_ and sign-up for the Render service. Login when finished, and navigate to your *Dashboard*.
 
 2. Create 'Redis'
 =================
@@ -32,14 +31,7 @@ For now, there is one part of Tabbycat that can't be setup automatically: the 'R
   .. image:: images/render-dropdown.png
       :alt: The dropdown menu to make a Redis
 
-Give your 'New Redis Instance' a Name. Ensure you change the plan to *Ephemeral* unless you are OK being charged.
-
-.. admonition:: Warning
-  :class: warning
-
-  We would strongly advise running against all but the smallest tournaments on this *Ephemeral* plan. Higher-capacity versions of Redis are crucial to managing many simultaneous visitors to a Tabbycat site.
-
-Then, click the blue **Create** button at the bottom of the page.
+On the resulting page, ensure you change the plan to *Ephemeral* unless you are OK being charged. Then, click the blue **Create** button at the bottom of the page.
 
 On the next page, take a precise note of the **Hostname** and **Port** text. You will need to copy/paste these in a second.
 
