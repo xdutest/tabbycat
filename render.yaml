@@ -3,6 +3,7 @@ services:
     name: tabbycat
     env: python
     plan: free
+    region: oregon
     buildCommand: "./bin/render_compile.sh"
     startCommand: "npm run serve-render"
     envVars:

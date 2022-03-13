@@ -31,7 +31,7 @@ For now, there is one part of Tabbycat that can't be setup automatically: the 'R
   .. image:: images/render-dropdown.png
       :alt: The dropdown menu to make a Redis
 
-On the resulting page, ensure you change the plan to *Ephemeral* unless you are OK being charged. Then, click the blue **Create** button at the bottom of the page.
+On the resulting page, ensure you change the plan to *Ephemeral* unless you are OK being charged. Then, click the blue **Create** button at the bottom of the page. Leave **Region** as *Oregon (US WEST)* and enter anything as the **Name**.
 
 On the next page, take a precise note of the **Hostname** and **Port** text. You will need to copy/paste these in a second.
 
