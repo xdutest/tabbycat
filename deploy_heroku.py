@@ -15,7 +15,7 @@ except ImportError:
     from random import SystemRandom
 
     def get_random_secret_key():
-        chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
+        chars = 'abcdefghijklmnopqrstuvwxyz0123456789'
         return ''.join(SystemRandom().choice(chars) for _ in range(50))
 
 # Arguments
@@ -182,6 +182,7 @@ run_heroku_command(["buildpacks:add", "heroku/python"])
 secret_key = get_random_secret_key()
 command = ["config:set", "DISABLE_COLLECTSTATIC=1", "DJANGO_SECRET_KEY=%s" % secret_key]
 command.append("DEBUG=1" if args.enable_debug else "DEBUG=0")
+
 if args.fast_cache_timeout:
     command.append("PUBLIC_FAST_CACHE_TIMEOUT=%d" % args.fast_cache_timeout)
 if args.slow_cache_timeout:
