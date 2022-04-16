@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-16 20:05\n"
+"PO-Revision-Date: 2022-04-16 20:15\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -296,57 +296,57 @@ msgstr "<li>%(side)s: %(team)s (%(points)s - %(speaks)s speech totali)"
 
 #: notifications/utils.py:103
 msgid "Win"
-msgstr ""
+msgstr "Vittoria"
 
 #: notifications/utils.py:103
 msgid "Loss"
-msgstr ""
+msgstr "Sconfitta"
 
 #: notifications/utils.py:115
 #, python-format
 msgid "<li>%(pos)s: %(speaker)s (%(score)s)</li>"
-msgstr ""
+msgstr "<li>%(pos)s: %(speaker)s (%(score)s)</li>"
 
 #: notifications/utils.py:183
 #, python-format
 msgid "<li>%(text)s (%(ref)s)</li>"
-msgstr ""
+msgstr "<li>%(text)s (%(ref)s)</li>"
 
 #: notifications/utils.py:206 notifications/utils.py:207
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: notifications/views.py:47
 #, python-format
 msgid "The email (SMTP) server returned an error sending the test email: [SMTP code %(code)d] %(error)s"
-msgstr ""
+msgstr "Il server di posta elettronica (SMTP) ha restituito un errore inviando l'email di prova: [codice SMTP %(code)d] %(error)s"
 
 #: notifications/views.py:51
 msgid "Hint: If the error is about sender identity verification in SendGrid, and you've already completed the steps in SendGrid, it may be that you need to update the DEFAULT_FROM_EMAIL config var in Heroku to match your verified sender identity."
-msgstr ""
+msgstr "Suggerimento: se l'errore riguarda la verifica dell'identità del mittente in SendGrid, e hai già completato la procedura in SendGrid, potrebbe essere necessario aggiornare la variabile di config DEFAULT_FROM_EMAIL in Heroku per corrispondere all'identità verificata del mittente."
 
 #: notifications/views.py:60
 #, python-format
 msgid "There was an error sending the test email: %(error)s"
-msgstr ""
+msgstr "Si è verificato un errore durante l'invio dell'email di prova: %(error)s"
 
 #: notifications/views.py:65
 #, python-format
 msgid "A test email has been sent to %(recipient)s."
-msgstr ""
+msgstr "Un'email di prova è stata inviata a %(recipient)s."
 
 #: notifications/views.py:81
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #: notifications/views.py:82
 msgid "Not known"
-msgstr ""
+msgstr "Sconosciuto"
 
 #: notifications/views.py:87
 #, python-format
 msgid "%(status)s @ %(time)s"
-msgstr ""
+msgstr "%(status)s @ %(time)s"
 
 #: notifications/views.py:133
 #, python-format
@@ -355,11 +355,11 @@ msgstr ""
 
 #: notifications/views.py:152
 msgid "Timeline"
-msgstr ""
+msgstr "Sequenza"
 
 #: notifications/views.py:162 notifications/views.py:260
 msgid "Participant"
-msgstr ""
+msgstr "Partecipante"
 
 #: notifications/views.py:163 notifications/views.py:265
 msgid "Email address"
@@ -367,52 +367,52 @@ msgstr ""
 
 #: notifications/views.py:164
 msgid "Status"
-msgstr ""
+msgstr "Stato"
 
 #: notifications/views.py:165
 msgid "Time"
-msgstr ""
+msgstr "Ora"
 
 #: notifications/views.py:204
 msgid "Email Participants"
-msgstr ""
+msgstr "Email Partecipanti"
 
 #: notifications/views.py:233
 #, python-format
 msgid "%(email_count)s email has been queued for sending."
 msgid_plural "%(email_count)s emails have been queued for sending."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(email_count)s email è stata accodata per l'invio."
+msgstr[1] "%(email_count)s email sono state accodate per l'invio."
 
 #: notifications/views.py:239
 msgid "No emails were sent — likely because no recipients were selected."
-msgstr ""
+msgstr "Nessuna email è stata inviata, probabilmente perché non è stato selezionato nessun destinatario."
 
 #: notifications/views.py:250
 msgid "Send Email"
-msgstr ""
+msgstr "Invia email"
 
 #: notifications/views.py:266
 msgid "Not Provided"
-msgstr ""
+msgstr "Non fornito"
 
 #: notifications/views.py:279
 msgid "Role"
-msgstr ""
+msgstr "Ruolo"
 
 #: notifications/views.py:280
 msgid "Adjudicator"
-msgstr ""
+msgstr "Giudice"
 
 #: notifications/views.py:280
 msgid "Speaker"
-msgstr ""
+msgstr "Speaker"
 
 #: notifications/views.py:288
 msgid "Speakers"
-msgstr ""
+msgstr "Speaker"
 
 #: notifications/views.py:289
 msgid "Adjudicators"
-msgstr ""
+msgstr "GiudicI"
 
