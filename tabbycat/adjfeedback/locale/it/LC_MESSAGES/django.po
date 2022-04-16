@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-16 20:25\n"
+"PO-Revision-Date: 2022-04-16 20:35\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -255,31 +255,31 @@ msgstr "risposte numerice di feedback giudice"
 
 #: adjfeedback/models.py:77
 msgid "adjudicator feedback string answer"
-msgstr ""
+msgstr "risposta di testo di feedback giudice"
 
 #: adjfeedback/models.py:78
 msgid "adjudicator feedback string answers"
-msgstr ""
+msgstr "risposte di testo di feedback giudice"
 
 #: adjfeedback/models.py:86
 msgid "adjudicator feedback multiple select answer"
-msgstr ""
+msgstr "risposta a scelta multipla di feedback giudice"
 
 #: adjfeedback/models.py:87
 msgid "adjudicator feedback multiple select answers"
-msgstr ""
+msgstr "risposte a scelta multipla di feedback giudice"
 
 #: adjfeedback/models.py:106
 msgid "checkbox"
-msgstr ""
+msgstr "casella di spunta"
 
 #: adjfeedback/models.py:107
 msgid "yes/no (dropdown)"
-msgstr ""
+msgstr "si/no (menu a tendina)"
 
 #: adjfeedback/models.py:108
 msgid "integer (textbox)"
-msgstr ""
+msgstr "intero (casella di testo)"
 
 #: adjfeedback/models.py:109
 msgid "integer scale"
@@ -490,96 +490,96 @@ msgstr ""
 
 #: adjfeedback/tables.py:172
 msgid "View Missing Feedback"
-msgstr ""
+msgstr "Visualizza Feedback Mancante"
 
 #: adjfeedback/templates/add_feedback.html:5
 msgid "Who is the feedback from?"
-msgstr ""
+msgstr "Da chi viene il feedback?"
 
 #: adjfeedback/templates/add_feedback.html:6
 #: adjfeedback/templates/enter_feedback.html:5
 msgid "Enter Feedback"
-msgstr ""
+msgstr "Inserisci Feedback"
 
 #: adjfeedback/templates/enter_feedback.html:9
 #: adjfeedback/templates/public_add_feedback.html:13
 #: adjfeedback/templates/public_add_feedback.html:20
 #, python-format
 msgid "Add Feedback from %(name)s"
-msgstr ""
+msgstr "Aggiungi Feedback da %(name)s"
 
 #: adjfeedback/templates/enter_feedback.html:13
 #: adjfeedback/templates/feedback_base.html:42
 msgid "Add Feedback"
-msgstr ""
+msgstr "Aggiungi Feedback"
 
 #: adjfeedback/templates/enter_feedback.html:21
 msgid "There are no feedback options because no rounds have been released to the public yet. Check back when they have!"
-msgstr ""
+msgstr "Non ci sono opzioni di feedback perché nessun round è stato ancora rilasciato al pubblico. Controlla quando lo rilasceranno!"
 
 #: adjfeedback/templates/enter_feedback.html:27
 msgid "This tournament expects you to submit feedback <strong>only on the adjudicator who delivered the adjudication</strong>. Do not submit feedback on other adjudicators."
-msgstr ""
+msgstr "Questo torneo si aspetta che tu invii un feedback <strong>solo sul giudice che ha emesso la sentenza</strong>. Non inviare un feedback su altri giudici."
 
 #: adjfeedback/templates/enter_feedback.html:29
 msgid "This tournament expects you to submit feedback on all of the adjudicators on the panel (including trainees)."
-msgstr ""
+msgstr "Questo torneo si aspetta che tu invii un feedback su tutti i giudici della giuria (inclusi i tirocinanti)."
 
 #: adjfeedback/templates/enter_feedback.html:43
 msgid "There are some problems with this feedback submission. Please review and correct them."
-msgstr ""
+msgstr "Ci sono alcuni problemi con questo invio di feedback. Si prega di rivederli e correggerli."
 
 #: adjfeedback/templates/enter_feedback.html:58
 msgid "When submitting this form your IP address will be stored for logging purposes."
-msgstr ""
+msgstr "Quando si invia questo modulo il tuo indirizzo IP sarà memorizzato per motivi di logging."
 
 #: adjfeedback/templates/feedback_base.html:8
 msgid "Overview"
-msgstr ""
+msgstr "Panoramica"
 
 #: adjfeedback/templates/feedback_base.html:12
 msgid "Latest"
-msgstr ""
+msgstr "Più recenti"
 
 #: adjfeedback/templates/feedback_base.html:16
 msgid "Unsubmitted"
-msgstr ""
+msgstr "Non inviato"
 
 #: adjfeedback/templates/feedback_base.html:20
 msgid "Important"
-msgstr ""
+msgstr "Importante"
 
 #: adjfeedback/templates/feedback_base.html:24
 msgid "Comments"
-msgstr ""
+msgstr "Commenti"
 
 #: adjfeedback/templates/feedback_base.html:28
 msgid "By Source"
-msgstr ""
+msgstr "Per Sorgente"
 
 #: adjfeedback/templates/feedback_base.html:32
 msgid "By Target"
-msgstr ""
+msgstr "Per destinatario"
 
 #: adjfeedback/templates/feedback_base.html:39
 msgid "Bulk Update Scores"
-msgstr ""
+msgstr "Aggiornamento punteggi bulk"
 
 #: adjfeedback/templates/feedback_by_source.html:4
 #: adjfeedback/templates/feedback_by_source.html:5
 #, python-format
 msgid "Feedback %(source_type)s %(source_name)s"
-msgstr ""
+msgstr "Feedback %(source_type)s %(source_name)s"
 
 #: adjfeedback/templates/feedback_by_source.html:12
 #, python-format
 msgid "%(source_name)s hasn't submitted any feedback yet."
-msgstr ""
+msgstr "%(source_name)s non ha ancora inviato nessun feedback."
 
 #: adjfeedback/templates/feedback_by_source.html:17
 #, python-format
 msgid "%(source_name)s hasn't received any feedback yet."
-msgstr ""
+msgstr "%(source_name)s non ha ancora ricevuto nessun feedback."
 
 #: adjfeedback/templates/feedback_card.html:8
 msgid "This is most likely because the team or adjudicator who submitted this feedback has submitted several times on the same person; or because a team has submitted feedback on multiple panellists (rather than just the orallist)."
