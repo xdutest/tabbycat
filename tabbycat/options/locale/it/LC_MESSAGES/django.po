@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2021-11-29 02:17\n"
+"PO-Revision-Date: 2022-04-16 19:55\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -1137,7 +1137,7 @@ msgstr ""
 
 #: options/preferences.py:1161 options/templates/preferences_index.html:109
 msgid "Notifications"
-msgstr ""
+msgstr "Notifiche"
 
 #: options/preferences.py:1167
 msgid "The name of the organizer tasked with managing emails (in case of replies)"
