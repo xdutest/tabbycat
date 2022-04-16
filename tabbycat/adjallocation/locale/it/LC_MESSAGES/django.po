@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-04-16 17:36\n"
+"PO-Revision-Date: 2022-04-16 17:45\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -134,15 +134,15 @@ msgstr ""
 
 #: adjallocation/models.py:18
 msgid "chair"
-msgstr ""
+msgstr "arbitro"
 
 #: adjallocation/models.py:19
 msgid "panellist"
-msgstr ""
+msgstr "giudice"
 
 #: adjallocation/models.py:20
 msgid "trainee"
-msgstr ""
+msgstr "coach"
 
 #: adjallocation/models.py:26
 msgid "debate"
@@ -155,7 +155,7 @@ msgstr "giudice"
 
 #: adjallocation/models.py:30 adjallocation/models.py:171
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #: adjallocation/models.py:31
 msgid "available?"
@@ -336,37 +336,37 @@ msgstr "Sconosciuto"
 
 #: adjallocation/views.py:90
 msgid "Edit Allocation"
-msgstr ""
+msgstr "Modifica assegnazione"
 
 #: adjallocation/views.py:105
 msgid "Edit Panels"
-msgstr ""
+msgstr "Modifica giurie"
 
 #: adjallocation/views.py:111
 msgid "Return to Panels Overview"
-msgstr ""
+msgstr "Ritorna alla panormaica giurie"
 
 #: adjallocation/views.py:172
 msgid "Adjudicator-Team Conflicts"
-msgstr ""
+msgstr "Conflitti Giudice-Squadra"
 
 #: adjallocation/views.py:173
 msgid "Save Adjudicator-Team Conflicts"
-msgstr ""
+msgstr "Salva i conflitti Giudice-Squadra"
 
 #: adjallocation/views.py:198
 #, python-format
 msgid "Saved %(count)d adjudicator-team conflict."
 msgid_plural "Saved %(count)d adjudicator-team conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Salvato %(count)d conflitto giudice-squadra."
+msgstr[1] "Salvati %(count)d conflitti giudice-squadra."
 
 #: adjallocation/views.py:204
 #, python-format
 msgid "Deleted %(count)d adjudicator-team conflict."
 msgid_plural "Deleted %(count)d adjudicator-team conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Cancellato %(count)d conflitto giudice-squadra."
+msgstr[1] "Cancellati %(count)d conflitti giudice-squadra."
 
 #: adjallocation/views.py:209
 msgid "No changes were made to adjudicator-team conflicts."
