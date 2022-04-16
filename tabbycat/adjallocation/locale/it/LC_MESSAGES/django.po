@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-04-16 16:57\n"
+"PO-Revision-Date: 2022-04-16 17:04\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -106,19 +106,19 @@ msgstr "Giudici auto-assegnati con successo alle giurie preformate."
 
 #: adjallocation/consumers.py:207
 msgid "You have no break category set as 'is general' so debate importances can't be calculated."
-msgstr ""
+msgstr "Non hai nessuna categoria di interruzione impostata come 'è generale', quindi le importanze del dibattito non possono essere calcolate."
 
 #: adjallocation/consumers.py:215
 msgid "Succesfully auto-prioritised debates."
-msgstr ""
+msgstr "Dibattiti prioritarizzati in automatico con successo."
 
 #: adjallocation/consumers.py:237
 msgid "You have no break category set as 'is general' so panel importances can't be calculated."
-msgstr ""
+msgstr "Non hai nessuna categoria di interruzione impostata come 'è generale', quindi le importanze del dibattito non possono essere calcolate."
 
 #: adjallocation/consumers.py:246
 msgid "Succesfully auto-prioritised preformed panels."
-msgstr ""
+msgstr "Giurie preformate prioritarizzate in automatico con successo."
 
 #: adjallocation/consumers.py:264
 msgid "Since this is the first round, the preformed panels aren't annotated with brackets and liveness."
