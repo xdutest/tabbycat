@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-16 17:36\n"
+"PO-Revision-Date: 2022-04-16 20:34\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -459,7 +459,7 @@ msgstr ""
 #: templates/nav/admin_nav.html:60 templates/nav/admin_nav.html:150
 #: templates/nav/admin_nav.html:190 templates/nav/admin_nav.html:249
 msgid "Overview"
-msgstr ""
+msgstr "Panoramica"
 
 #: templates/nav/admin_nav.html:67
 msgid "Setup"
@@ -512,11 +512,11 @@ msgstr ""
 
 #: templates/nav/admin_nav.html:153
 msgid "Latest"
-msgstr ""
+msgstr "Più recenti"
 
 #: templates/nav/admin_nav.html:156
 msgid "Important"
-msgstr ""
+msgstr "Importante"
 
 #: templates/nav/admin_nav.html:159
 msgid "Comments"
@@ -532,11 +532,11 @@ msgstr ""
 
 #: templates/nav/admin_nav.html:168
 msgid "Unsubmitted"
-msgstr ""
+msgstr "Non inviato"
 
 #: templates/nav/admin_nav.html:171
 msgid "Add Feedback"
-msgstr ""
+msgstr "Aggiungi Feedback"
 
 #: templates/nav/admin_nav.html:174
 msgid "Bulk Update"
@@ -611,7 +611,7 @@ msgstr ""
 
 #: templates/nav/assistant_nav.html:11 templates/nav/public_nav.html:211
 msgid "Enter Feedback"
-msgstr ""
+msgstr "Inserisci Feedback"
 
 #: templates/nav/assistant_nav.html:22
 msgid "Participants List"
