@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2021-11-16 16:58\n"
+"PO-Revision-Date: 2022-04-16 16:35\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -37,21 +37,21 @@ msgstr[1] "%(count)s punteggi sono più piccoli del punteggio minimo consentito 
 
 #: adjallocation/allocators/hungarian.py:111
 msgid "There are no adjudicators eligible to be a chair or panellist. Try changing the \"Minimum feedback score required to be allocated as chair or panellist\" setting to something lower than at least some adjudicators' current scores, and try again."
-msgstr ""
+msgstr "Non ci sono giudici idonei a essere presidente o membro del panel. Prova a modificare l'impostazione \"Punteggio minimo di feedback richiesto per essere assegnato come presidente o membro del panel\" almeno ad un punteggio inferiore a quello di alcuni giudici e riprova."
 
 #: adjallocation/allocators/hungarian.py:119
 msgid "There are no debates for this round. Maybe you haven't created a draw yet?"
-msgstr ""
+msgstr "Non ci sono dibattiti in questo round. Forse non hai ancora creato un sorteggio?"
 
 #: adjallocation/allocators/hungarian.py:166
 #, python-format
 msgid "There are %(debate_count)s debates but only %(adj_count)s voting adjudicators."
-msgstr ""
+msgstr "Ci sono %(debate_count)s dibattiti ma solo %(adj_count)s giudici votanti."
 
 #: adjallocation/allocators/hungarian.py:172
 #, python-format
 msgid "There are %(panel_debates)s panel debates but only %(panellists)s available panellists (less than %(needed)s)."
-msgstr ""
+msgstr "Ci sono %(panel_debates)s dibattiti del panel ma solo %(panellists)s panellisti disponibili (meno di %(needed)s)."
 
 #: adjallocation/allocators/hungarian.py:282
 #, python-format
