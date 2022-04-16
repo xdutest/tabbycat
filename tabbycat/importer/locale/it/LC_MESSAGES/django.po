@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-16 19:04\n"
+"PO-Revision-Date: 2022-04-16 19:15\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -40,8 +40,8 @@ msgstr "Nessun istituto da importare."
 #, python-format
 msgid "Sorry, you can only import up to %(max_allowed)d institution at a time. (You currently have %(given)d.) Try splitting your import into smaller chunks."
 msgid_plural "Sorry, you can only import up to %(max_allowed)d institutions at a time. (You currently have %(given)d.) Try splitting your import into smaller chunks."
-msgstr[0] "Siamo spiacenti, puoi importare solo %(max_allowed)d istituzione alla volta (al momento sono %(given)d.) Prova a dividere la tua importazione in pezzi più piccoli."
-msgstr[1] "Siamo spiacenti, puoi importare fino a %(max_allowed)d istituzioni alla volta (al momento sono %(given)d.) Prova a dividere la tua importazione in pezzi più piccoli."
+msgstr[0] "Siamo spiacenti, puoi importare solo %(max_allowed)d istituzione alla volta (al momento sono %(given)d). Prova a dividere la tua importazione in pezzi più piccoli."
+msgstr[1] "Siamo spiacenti, puoi importare massimo %(max_allowed)d istituzioni alla volta (al momento sono %(given)d). Prova a dividere la tua importazione in pezzi più piccoli."
 
 #: importer/forms.py:103
 msgid "There were no rooms to import."
@@ -51,8 +51,8 @@ msgstr "Non ci sono stanze da importare."
 #, python-format
 msgid "Sorry, you can only import up to %(max_allowed)d room at a time. (You currently have %(given)d.) Try splitting your import into smaller chunks."
 msgid_plural "Sorry, you can only import up to %(max_allowed)d rooms at a time. (You currently have %(given)d.) Try splitting your import into smaller chunks."
-msgstr[0] "Siamo spiacenti, puoi importare solo %(max_allowed)d stanza alla volta (al momento sono %(given)d.) Prova a dividere la tua importazione in pezzi più piccoli."
-msgstr[1] "Siamo spiacenti, puoi importare fino a %(max_allowed)d stanze alla volta (al momento sono %(given)d.) Prova a dividere la tua importazione in pezzi più piccoli."
+msgstr[0] "Siamo spiacenti, puoi importare solo %(max_allowed)d stanza alla volta (al momento sono %(given)d). Prova a dividere la tua importazione in pezzi più piccoli."
+msgstr[1] "Siamo spiacenti, puoi importare massimo %(max_allowed)d stanze alla volta (al momento sono %(given)d). Prova a dividere la tua importazione in pezzi più piccoli."
 
 #: importer/forms.py:191
 msgid "Speakers' names"
@@ -76,59 +76,59 @@ msgstr "Prefisso del team con il nome dell'istituto?"
 
 #: importer/forms.py:204
 msgid "Do not include institution name (check the \"Prefix team name with institution name?\" field instead)"
-msgstr ""
+msgstr "Non includere il nome dell'istituto (seleziona invece il campo \"Prefisso del team con il nome dell'istituto?\")"
 
 #: importer/forms.py:213
 msgid "(Not applicable to unaffiliated teams)"
-msgstr ""
+msgstr "(Non applicabile alle squadre non affiliate)"
 
 #: importer/forms.py:218
 msgid "One speaker's name per line"
-msgstr ""
+msgstr "Un nome di speaker per riga"
 
 #: importer/forms.py:219
 msgid "Can be separated by newlines, tabs or commas"
-msgstr ""
+msgstr "Possono essere separati da nuova linea, tabulazione o virgola"
 
 #: importer/forms.py:221
 #, python-format
 msgid "Speaker %d"
-msgstr ""
+msgstr "Speaker %d"
 
 #: importer/forms.py:223
 #, python-format
 msgid "speaker%d@example.edu"
-msgstr ""
+msgstr "speaker%d@example.edu"
 
 #: importer/forms.py:237
 msgid "There must be at least one speaker."
-msgstr ""
+msgstr "E' necessario avere almeno uno speaker."
 
 #: importer/forms.py:246
 #, python-format
 msgid "%(email)s is not a valid email address."
-msgstr ""
+msgstr "%(email)s non è un indirizzo email valido."
 
 #: importer/forms.py:259
 msgid "There are more email addresses than speakers."
-msgstr ""
+msgstr "Ci sono più indirizzi email che speaker."
 
 #: importer/forms.py:297
 msgid "Every team in a single tournament from the same institution must have a different name. Please correct the duplicate data."
-msgstr ""
+msgstr "Le squadre dello stesso istituto in un torneo devono avere un nome diverso. Correggi i dati duplicati."
 
 #: importer/forms.py:309
 msgid "Rating"
-msgstr ""
+msgstr "Grado"
 
 #: importer/forms.py:317
 #, python-format
 msgid "This value must be between %(min)d and %(max)d."
-msgstr ""
+msgstr "Questo valore deve essere compreso tra %(min)d e %(max)d."
 
 #: importer/forms.py:339
 msgid "Unaffiliated (no institution)"
-msgstr ""
+msgstr "Non affiliato (nessuna istituzione)"
 
 #: importer/forms.py:351
 #, python-format
@@ -139,15 +139,15 @@ msgstr ""
 #, python-format
 msgid "Sorry, you can only import up to %(max_allowed)d team at a time. (These numbers currently add to %(given)d.) Try splitting your import into smaller chunks."
 msgid_plural "Sorry, you can only import up to %(max_allowed)d teams at a time. (These numbers currently add to %(given)d.) Try splitting your import into smaller chunks."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Siamo spiacenti, puoi importare solo %(max_allowed)d team alla volta (al momento sono %(given)d.) Prova a dividere la tua importazione in pezzi più piccoli."
+msgstr[1] "Siamo spiacenti, puoi importare massimo %(max_allowed)d team alla volta (al momento sono %(given)d). Prova a dividere la tua importazione in pezzi più piccoli."
 
 #: importer/forms.py:385
 #, python-format
 msgid "Sorry, you can only import up to %(max_allowed)d adjudicator at a time. (These numbers currently add to %(given)d.) Try splitting your import into smaller chunks."
 msgid_plural "Sorry, you can only import up to %(max_allowed)d adjudicators at a time. (These numbers currently add to %(given)d.) Try splitting your import into smaller chunks."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Siamo spiacenti, puoi importare solo %(max_allowed)d giudice alla volta (al momento sono %(given)d). Prova a dividere la tua importazione in pezzi più piccoli."
+msgstr[1] "Siamo spiacenti, puoi importare massimo %(max_allowed)d giudici alla volta (al momento sono %(given)d). Prova a dividere la tua importazione in pezzi più piccoli."
 
 #: importer/forms.py:396
 msgid "XML"
@@ -155,38 +155,38 @@ msgstr ""
 
 #: importer/forms.py:397
 msgid "The Debate XML archive to parse"
-msgstr ""
+msgstr "L'archivio XML di dibattito da analizzare"
 
 #: importer/templates/archive_export_index.html:4
 #: importer/templates/archive_export_index.html:5
 msgid "Export Tournament Archive"
-msgstr ""
+msgstr "Esporta Archivio Torneo"
 
 #: importer/templates/archive_export_index.html:9
 msgid "Tournaments can be exported in an <a href=\"https://en.wikipedia.org/wiki/XML\">XML format</a> for use outside Tabbycat."
-msgstr ""
+msgstr "I tornei possono essere esportati in un <a href=\"https://it.wikipedia.org/wiki/XML\">formato XML</a> Per essere usati all'esterno di tabbycat."
 
 #: importer/templates/archive_export_index.html:17
 msgid "Export all data"
-msgstr ""
+msgstr "Esporta tutti i dati"
 
 #: importer/templates/archive_importer.html:6
 #: importer/templates/archive_importer.html:18
 msgctxt "page title"
 msgid "Import Tournament Archive"
-msgstr ""
+msgstr "Importa Archivio Del Torneo"
 
 #: importer/templates/archive_importer.html:19
 msgid "This form will create a tournament with the data provided as a Debate XML format."
-msgstr ""
+msgstr "Questo modulo creerà un torneo con i dati forniti come formato XML di debate."
 
 #: importer/templates/archive_importer.html:24
 msgid "Import"
-msgstr ""
+msgstr "Importa"
 
 #: importer/templates/archive_importer.html:25
 msgid "Go back to the site home page"
-msgstr ""
+msgstr "Torna alla pagina iniziale"
 
 #: importer/templates/simple_import_adjudicators_details.html:4
 #: importer/templates/simple_import_adjudicators_details.html:6
@@ -194,7 +194,7 @@ msgstr ""
 #: importer/templates/simple_import_adjudicators_numbers.html:6
 msgctxt "page title"
 msgid "Add Adjudicators"
-msgstr ""
+msgstr "Aggiungi giudici"
 
 #: importer/templates/simple_import_adjudicators_details.html:5
 #: importer/templates/simple_import_adjudicators_numbers.html:5
@@ -271,7 +271,7 @@ msgstr ""
 
 #: importer/templates/simple_import_index.html:25
 msgid "Add Adjudicators"
-msgstr ""
+msgstr "Aggiungi giudici"
 
 #: importer/templates/simple_import_index.html:29
 msgid "Add Rooms"
