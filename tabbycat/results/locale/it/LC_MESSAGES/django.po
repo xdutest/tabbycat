@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2021-11-29 02:15\n"
+"PO-Revision-Date: 2022-04-16 20:15\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -969,7 +969,7 @@ msgstr ""
 
 #: results/views.py:275
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #: results/views.py:408
 msgid "New Ballot Set"
