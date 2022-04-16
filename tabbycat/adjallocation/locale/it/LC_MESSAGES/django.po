@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-04-16 17:04\n"
+"PO-Revision-Date: 2022-04-16 17:25\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: adjallocation/models.py:31
 msgid "available?"
-msgstr ""
+msgstr "disponibile?"
 
 #: adjallocation/models.py:34
 msgid "debate adjudicator"
@@ -219,11 +219,11 @@ msgstr "squadra-istituzione conflitti"
 
 #: adjallocation/models.py:114
 msgid "round"
-msgstr ""
+msgstr "round"
 
 #: adjallocation/models.py:116
 msgid "importance"
-msgstr ""
+msgstr "importanza"
 
 #: adjallocation/models.py:119
 msgid "minimum bracket"
@@ -243,11 +243,11 @@ msgstr ""
 
 #: adjallocation/models.py:125
 msgid "room rank"
-msgstr ""
+msgstr "grado stanza"
 
 #: adjallocation/models.py:126
 msgid "Sequential number of panel, not used in any algorithms"
-msgstr ""
+msgstr "Numero sequenziale della giuria, non viene usato in nessun algoritmo"
 
 #: adjallocation/models.py:128
 msgid "liveness"
@@ -259,23 +259,23 @@ msgstr ""
 
 #: adjallocation/models.py:132
 msgid "preformed panel"
-msgstr ""
+msgstr "giuria preformata"
 
 #: adjallocation/models.py:133
 msgid "preformed panels"
-msgstr ""
+msgstr "giurie preformate"
 
 #: adjallocation/models.py:167
 msgid "panel"
-msgstr ""
+msgstr "giuria"
 
 #: adjallocation/models.py:174
 msgid "preformed panel adjudicator"
-msgstr ""
+msgstr "giudice della giuria preformata"
 
 #: adjallocation/models.py:175
 msgid "preformed panel adjudicators"
-msgstr ""
+msgstr "giudici della giuria preformata"
 
 #: adjallocation/preformed/base.py:41
 msgid "There are no preformed panels to use. Have you allocated preformed panels for this round? If not, try just auto-allocating adjudicators instead."
