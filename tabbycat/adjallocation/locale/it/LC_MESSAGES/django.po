@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-04-16 17:45\n"
+"PO-Revision-Date: 2022-04-16 17:55\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -370,63 +370,63 @@ msgstr[1] "Cancellati %(count)d conflitti giudice-squadra."
 
 #: adjallocation/views.py:209
 msgid "No changes were made to adjudicator-team conflicts."
-msgstr ""
+msgstr "Non sono state apportate modifiche ai conflitti giudici-squadre."
 
 #: adjallocation/views.py:216
 msgid "Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Conflitti Giudice-Giudice"
 
 #: adjallocation/views.py:217
 msgid "Save Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Salva conflitti Giudice-Giudice"
 
 #: adjallocation/views.py:238
 #, python-format
 msgid "Saved %(count)d adjudicator-adjudicator conflict."
 msgid_plural "Saved %(count)d adjudicator-adjudicator conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Salvato %(count)d conflitto giudice-giudice."
+msgstr[1] "Salvati %(count)d conflitti giudice-giudice."
 
 #: adjallocation/views.py:244
 #, python-format
 msgid "Deleted %(count)d adjudicator-adjudicator conflict."
 msgid_plural "Deleted %(count)d adjudicator-adjudicator conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Cancellato %(count)d conflitto giudice-giudice."
+msgstr[1] "Cancellati %(count)d conflitti giudice-giudice."
 
 #: adjallocation/views.py:249
 msgid "No changes were made to adjudicator-adjudicator conflicts."
-msgstr ""
+msgstr "Non sono state apportate modifiche ai conflitti giudici-giudici."
 
 #: adjallocation/views.py:256
 msgid "Adjudicator-Institution Conflicts"
-msgstr ""
+msgstr "Conflitti giudice-istituto"
 
 #: adjallocation/views.py:257
 msgid "Save Adjudicator-Institution Conflicts"
-msgstr ""
+msgstr "Salva conflitti giudice-istituzione"
 
 #: adjallocation/views.py:277
 #, python-format
 msgid "Saved %(count)d adjudicator-institution conflict."
 msgid_plural "Saved %(count)d adjudicator-institution conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Salvato %(count)d conflitto giudice-istituzione."
+msgstr[1] "Salvati %(count)d conflitti giudice-istituzione."
 
 #: adjallocation/views.py:283
 #, python-format
 msgid "Deleted %(count)d adjudicator-institution conflict."
 msgid_plural "Deleted %(count)d adjudicator-institution conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Eliminato %(count)d conflitto giudice-istituzione."
+msgstr[1] "Eliminati %(count)d conflitti giudice-istituzione."
 
 #: adjallocation/views.py:288
 msgid "No changes were made to adjudicator-institution conflicts."
-msgstr ""
+msgstr "Non sono state apportate modifiche ai conflitti giudici-istituzioni."
 
 #: adjallocation/views.py:295
 msgid "Team-Institution Conflicts"
-msgstr ""
+msgstr "Conflitti squadra-istituzione"
 
 #: adjallocation/views.py:296
 msgid "Save Team-Institution Conflicts"
