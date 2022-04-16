@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-16 19:26\n"
+"PO-Revision-Date: 2022-04-16 19:35\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -295,19 +295,19 @@ msgstr "Aggiungi/Modifica conflitti giudice-giudice"
 
 #: importer/templates/simple_import_index.html:55
 msgid "Add/Edit Adjudicator-Institution Conflicts"
-msgstr ""
+msgstr "Aggiungi/Modifica conflitti giudice-istituto"
 
 #: importer/templates/simple_import_index.html:59
 msgid "Add/Edit Team-Institution Conflicts"
-msgstr ""
+msgstr "Aggiungi/Modifica conflitti squadra-istituto"
 
 #: importer/templates/simple_import_index.html:66
 msgid "Add/Edit Break Categories"
-msgstr ""
+msgstr "Aggiungi/modifica categoria di break"
 
 #: importer/templates/simple_import_index.html:70
 msgid "Add/Edit Speaker Categories"
-msgstr ""
+msgstr "Aggiungi/modifica categorie di speaker"
 
 #: importer/templates/simple_import_institutions_details.html:4
 #: importer/templates/simple_import_institutions_details.html:6
@@ -319,12 +319,12 @@ msgstr "Aggiungi istituti"
 
 #: importer/templates/simple_import_institutions_details.html:37
 msgid "Save All Institutions"
-msgstr ""
+msgstr "Salva tutti gli istituti"
 
 #: importer/templates/simple_import_institutions_raw.html:30
 #: importer/templates/simple_import_venues_raw.html:30
 msgid "There are some problems with the data on this form:"
-msgstr ""
+msgstr "Ci sono alcuni problemi con i dati su questo modulo:"
 
 #: importer/templates/simple_import_institutions_raw.html:41
 #: importer/templates/simple_import_venues_raw.html:41
@@ -342,28 +342,28 @@ msgstr "Aggiungi squadre"
 #: importer/templates/simple_import_teams_details.html:33
 #, python-format
 msgid "Teams for %(institution)s"
-msgstr ""
+msgstr "Squadre per %(institution)s"
 
 #: importer/templates/simple_import_teams_details.html:37
 msgid "Unaffiliated Teams"
-msgstr ""
+msgstr "Squadre Non affiliate"
 
 #: importer/templates/simple_import_teams_details.html:51
 msgid "Save All Teams"
-msgstr ""
+msgstr "Salva Tutte Le Squadre"
 
 #: importer/templates/simple_import_teams_numbers.html:15
 #, python-format
 msgid "You need to <a href=\"%(import_institutions_url)s\" class=\"alert-link\">add institutions</a> before adding teams."
-msgstr ""
+msgstr "È necessario <a href=\"%(import_institutions_url)s\" class=\"alert-link\">aggiungere istituti</a> Prima di aggiungere delle squadre."
 
 #: importer/templates/simple_import_teams_numbers.html:24
 msgid "Specify the number of new teams to add per institution. In the next step you can specify team and speaker names."
-msgstr ""
+msgstr "Specifica il numero di nuovi team da aggiungere per istituto. Nella fase successiva puoi specificare il team ed i nomi degli speaker."
 
 #: importer/templates/simple_import_teams_numbers.html:28
 msgid "You can add up to 141 teams at a time. If you have more than 141 teams, split them into chunks. (Please don't try to add more than 141 in one go; the system will crash and you will lose data.)"
-msgstr ""
+msgstr "Puoi aggiungere fino a 141 squadre alla volta. Se hai più di 141 squadre, dividile in pezzi. (Si prega di non cercare di aggiungerne più di 141 in una volta; il sistema si bloccherà e si perderanno i dati.)"
 
 #: importer/templates/simple_import_venues_details.html:4
 #: importer/templates/simple_import_venues_details.html:6
@@ -375,47 +375,47 @@ msgstr "Aggiungi stanze"
 
 #: importer/templates/simple_import_venues_details.html:16
 msgid "Priorities indicate how much you want to use the room. Larger numbers indicate higher priority. If you have more rooms than debates, the rooms with the lowest priorities will not be used."
-msgstr ""
+msgstr "Le priorità indicano quanto si desidera utilizzare la stanza. I numeri più grandi indicano una priorità maggiore. Se si dispone di più stanze che dibattiti, le stanze con le priorità più bassa non saranno utilizzate."
 
 #: importer/templates/simple_import_venues_details.html:33
 msgid "Save All Rooms"
-msgstr ""
+msgstr "Salva Tutte Le Stanze"
 
 #: importer/templates/simple_import_venues_raw.html:15
 msgid "Paste a list of rooms with one room per line and following the format of: <code>name,priority</code>. For example:"
-msgstr ""
+msgstr "Incolla un elenco di stanze con una stanza per riga e seguendo il formato di: <code>nome,priorità</code>. Per esempio:"
 
 #: importer/views.py:108
 #, python-format
 msgid "Added %(count)d institution."
 msgid_plural "Added %(count)d institutions."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aggiunto %(count)d instituto."
+msgstr[1] "Aggiunti %(count)d instituti."
 
 #: importer/views.py:129
 #, python-format
 msgid "Added %(count)d room."
 msgid_plural "Added %(count)d rooms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aggiunta %(count)d stanza."
+msgstr[1] "Aggiunte %(count)d stanze."
 
 #: importer/views.py:188
 #, python-format
 msgid "Added %(count)d team."
 msgid_plural "Added %(count)d teams."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aggiunta %(count)d squadra."
+msgstr[1] "Aggiunte %(count)d squadre."
 
 #: importer/views.py:209
 #, python-format
 msgid "Adjudicator %(number)d"
-msgstr ""
+msgstr "Giudice %(number)d"
 
 #: importer/views.py:214
 #, python-format
 msgid "Added %(count)d adjudicator."
 msgid_plural "Added %(count)d adjudicators."
-msgstr[0] ""
+msgstr[0] "Aggiunto %(count)d giudice."
 msgstr[1] ""
 
 #: importer/views.py:230
