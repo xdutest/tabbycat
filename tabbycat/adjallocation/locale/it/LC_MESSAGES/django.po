@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-04-16 16:47\n"
+"PO-Revision-Date: 2022-04-16 16:57\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -82,27 +82,27 @@ msgstr "Giurie preformate auto-assegnate con successo ai dibattiti."
 #, python-format
 msgid "Successfully auto-allocated adjudicators to debates. However, there was a warning:"
 msgid_plural "Successfully auto-allocated adjudicators to debates. However, there were %(count)d warnings:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Giudici auto-assegnati ai dibattiti con successo. Comunque, c'è un avviso:"
+msgstr[1] "Giudici auto-assegnati ai dibattiti con successo. Comunque, ci sono %(count)d avvisi:"
 
 #: adjallocation/consumers.py:115
 msgid "Successfully auto-allocated adjudicators to debates."
-msgstr ""
+msgstr "Giurie preformate auto-assegnate con successo ai dibattiti."
 
 #: adjallocation/consumers.py:131
 msgid "There aren't any panels to fill. Create panels first."
-msgstr ""
+msgstr "Non ci sono giurie da riempire. Crea prima delle giurie."
 
 #: adjallocation/consumers.py:155
 #, python-format
 msgid "Successfully auto-allocated adjudicators to preformed panels. However, there was a warning:"
 msgid_plural "Successfully auto-allocated adjudicators to preformed panels. However, there were %(count)d warnings:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Giudici auto-assegnati ai dibattiti con successo. Comunque, c'è un avviso:"
+msgstr[1] "Giudici auto-assegnati ai dibattiti con successo. Comunque, ci sono %(count)d avvisi:"
 
 #: adjallocation/consumers.py:161
 msgid "Successfully auto-allocated adjudicators to preformed panels."
-msgstr ""
+msgstr "Giudici auto-assegnati con successo alle giurie preformate."
 
 #: adjallocation/consumers.py:207
 msgid "You have no break category set as 'is general' so debate importances can't be calculated."
