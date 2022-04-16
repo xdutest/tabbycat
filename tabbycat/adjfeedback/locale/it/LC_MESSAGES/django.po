@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-16 17:45\n"
+"PO-Revision-Date: 2022-04-16 20:15\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -19,49 +19,49 @@ msgstr ""
 
 #: adjfeedback/admin.py:44
 msgid "Integer scales must have a minimum and maximum"
-msgstr ""
+msgstr "Le scale intere devono avere un minimo e un massimo"
 
 #: adjfeedback/admin.py:73 adjfeedback/admin.py:139
 msgid "target"
-msgstr ""
+msgstr "obiettivo"
 
 #: adjfeedback/admin.py:74 adjfeedback/admin.py:140 adjfeedback/models.py:236
 msgid "source adjudicator"
-msgstr ""
+msgstr "giudice del dibattito"
 
 #: adjfeedback/admin.py:75 adjfeedback/admin.py:141 adjfeedback/models.py:238
 msgid "source team"
-msgstr ""
+msgstr "team di origine"
 
 #: adjfeedback/admin.py:91
 #, python-format
 msgid "%(timestamp)s (version %(version)s)"
-msgstr ""
+msgstr "%(timestamp)s (versione %(version)s)"
 
 #: adjfeedback/admin.py:96
 msgid "Target"
-msgstr ""
+msgstr "Obiettivo"
 
 #: adjfeedback/admin.py:97 adjfeedback/admin.py:162
 msgid "Source"
-msgstr ""
+msgstr "Fonte"
 
 #: adjfeedback/admin.py:98
 msgid "Feedback timestamp and version"
-msgstr ""
+msgstr "Feedback timestamp e versione"
 
 #: adjfeedback/admin.py:180
 #, python-format
 msgid "1 feedback submission was marked as confirmed. Note that this may have caused other feedback submissions to be marked as unconfirmed."
 msgid_plural "%(count)d feedback submissions were marked as confirmed. Note that this may have caused other feedback submissions to be marked as unconfirmed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 invio di feedback è stato contrassegnato come confermato. Nota che questo potrebbe aver causato altri invii di feedback da contrassegnare come non confermati."
+msgstr[1] "%(count)d invii di feedback sono stati contrassegnati come confermati. Nota che questo potrebbe aver causato altri invii di feedback da contrassegnare come non confermati."
 
 #: adjfeedback/admin.py:192
 #, python-format
 msgid "1 feedback submission was not marked as confirmed, probably because other feedback submissions that conflict with it were also marked as confirmed."
 msgid_plural "%(count)d feedback submissions were not marked as confirmed, probably because other feedback submissions that conflict with them were also marked as confirmed."
-msgstr[0] ""
+msgstr[0] "1 invio di feedback è stato contrassegnato come confermato, probabilmente perché altri invii di feedback in conflitto con questo sono stati contrassegnati come confermati."
 msgstr[1] ""
 
 #: adjfeedback/admin.py:205
@@ -431,7 +431,7 @@ msgstr ""
 
 #: adjfeedback/tables.py:35
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #: adjfeedback/tables.py:45
 msgid "Current weighted score"
