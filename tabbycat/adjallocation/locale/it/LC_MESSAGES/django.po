@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-04-16 19:04\n"
+"PO-Revision-Date: 2022-04-16 19:46\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: adjallocation/allocators/base.py:34
 msgid "There are no available adjudicators. Ensure there are adjudicators who have been marked as available for this round before auto-allocating."
-msgstr "Non ci sono giudici disponibili. Assicurati che ci siano giudici che sono stati contrassegnati come disponibili per questo round prima di auto-assegnazione."
+msgstr "Non ci sono giudici disponibili. Assicurati che ci siano giudici che sono stati contrassegnati come disponibili per questo round prima dell'auto-assegnazione."
 
 #: adjallocation/allocators/hungarian.py:50
 #, python-format
@@ -122,15 +122,15 @@ msgstr "Giurie preformate prioritarizzate in automatico con successo."
 
 #: adjallocation/consumers.py:264
 msgid "Since this is the first round, the preformed panels aren't annotated with brackets and liveness."
-msgstr ""
+msgstr "Poiché questo è il primo round, i pannelli preformati non sono annotati con gruppi e partecipazione."
 
 #: adjallocation/consumers.py:267
 msgid "The previous round's draw doesn't exist, so preformed panels can't be annotated with brackets and liveness."
-msgstr ""
+msgstr "Il sorteggio del round precedente non esiste, quindi i pannelli preformati non possono essere annotati da gruppi e partecipazione."
 
 #: adjallocation/consumers.py:270
 msgid "Succesfully created new preformed panels for this round."
-msgstr ""
+msgstr "Create con successo nuove giurie preformate per questo round."
 
 #: adjallocation/models.py:18
 msgid "chair"
@@ -227,19 +227,19 @@ msgstr "importanza"
 
 #: adjallocation/models.py:119
 msgid "minimum bracket"
-msgstr ""
+msgstr "raggruppamento minimo"
 
 #: adjallocation/models.py:120
 msgid "Estimate of the lowest bracket for which this panel might be"
-msgstr ""
+msgstr "Stima del raggruppamento più basso nella quale dovrebbe trovarsi questa giuria"
 
 #: adjallocation/models.py:122
 msgid "maximum bracket"
-msgstr ""
+msgstr "raggruppamento massimo"
 
 #: adjallocation/models.py:123
 msgid "Estimate of the highest bracket for which this panel might be"
-msgstr ""
+msgstr "Stima del raggruppamento più alto nella quale dovrebbe trovarsi questa giuria"
 
 #: adjallocation/models.py:125
 msgid "room rank"
@@ -251,11 +251,11 @@ msgstr "Numero sequenziale della giuria, non viene usato in nessun algoritmo"
 
 #: adjallocation/models.py:128
 msgid "liveness"
-msgstr ""
+msgstr "attività"
 
 #: adjallocation/models.py:129
 msgid "Number of categories this room is expected to be live for"
-msgstr ""
+msgstr "Numero di categorie per cui questa stanza dovrebbe essere usata"
 
 #: adjallocation/models.py:132
 msgid "preformed panel"
