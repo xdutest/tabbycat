@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-29 23:49-0400\n"
-"PO-Revision-Date: 2022-04-17 08:54\n"
+"PO-Revision-Date: 2022-04-17 09:05\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -137,11 +137,11 @@ msgstr "Totale"
 
 #: standings/speakers.py:58 standings/speakers.py:116
 msgid "average"
-msgstr ""
+msgstr "media"
 
 #: standings/speakers.py:59 standings/speakers.py:117
 msgid "Avg"
-msgstr ""
+msgstr "Med"
 
 #: standings/speakers.py:66
 msgid "team points"
@@ -153,167 +153,167 @@ msgstr "Team"
 
 #: standings/speakers.py:89 standings/speakers.py:126
 msgid "standard deviation"
-msgstr ""
+msgstr "deviazione standard"
 
 #: standings/speakers.py:90 standings/speakers.py:127
 msgid "Stdev"
-msgstr ""
+msgstr "Devstd"
 
 #: standings/speakers.py:98
 msgid "number of speeches given"
-msgstr ""
+msgstr "numero di speech fatti"
 
 #: standings/speakers.py:99 standings/speakers.py:138
 msgid "Num"
-msgstr ""
+msgstr "Num"
 
 #: standings/speakers.py:137
 msgid "replies given"
-msgstr ""
+msgstr "arringhe fatte"
 
 #: standings/speakers.py:147
 msgid "trimmed mean (high-low drop)"
-msgstr ""
+msgstr "media tagliata (senza alto-basso)"
 
 #: standings/speakers.py:148
 msgid "Trim"
-msgstr ""
+msgstr "Tagl"
 
 #: standings/teams.py:62
 msgid "points"
-msgstr ""
+msgstr "punti"
 
 #: standings/teams.py:63
 msgid "Pts"
-msgstr ""
+msgstr "Pti"
 
 #: standings/teams.py:76
 msgid "wins"
-msgstr ""
+msgstr "vittorie"
 
 #: standings/teams.py:77 standings/views.py:592
 msgid "Wins"
-msgstr ""
+msgstr "Vittorie"
 
 #: standings/teams.py:87
 msgid "total speaker score"
-msgstr ""
+msgstr "punteggio totale speaker"
 
 #: standings/teams.py:88
 msgid "Spk"
-msgstr ""
+msgstr "Spk"
 
 #: standings/teams.py:97
 msgid "average total speaker score"
-msgstr ""
+msgstr "punteggio totale speaker"
 
 #: standings/teams.py:98
 msgid "ATSS"
-msgstr ""
+msgstr "PTS"
 
 #: standings/teams.py:107
 msgid "speaker score standard deviation"
-msgstr ""
+msgstr "deviazione standard punteggio speaker"
 
 #: standings/teams.py:108
 msgid "SSD"
-msgstr ""
+msgstr "DSS"
 
 #: standings/teams.py:118
 msgid "sum of margins"
-msgstr ""
+msgstr "somma dei margini"
 
 #: standings/teams.py:119
 msgid "Marg"
-msgstr ""
+msgstr "Marg"
 
 #: standings/teams.py:128
 msgid "average margin"
-msgstr ""
+msgstr "margine medio"
 
 #: standings/teams.py:129
 msgid "AWM"
-msgstr ""
+msgstr "MM"
 
 #: standings/teams.py:138
 msgid "average individual speaker score"
-msgstr ""
+msgstr "punteggio medio individuale speaker"
 
 #: standings/teams.py:139
 msgid "AISS"
-msgstr ""
+msgstr "PMIS"
 
 #: standings/teams.py:211
 msgid "draw strength by wins"
-msgstr ""
+msgstr "forza del sorteggio per vittorie"
 
 #: standings/teams.py:212
 msgid "DS"
-msgstr ""
+msgstr "FS"
 
 #: standings/teams.py:219
 msgid "draw strength by total speaker score"
-msgstr ""
+msgstr "forza del sorteggio per punteggio totale speaker"
 
 #: standings/teams.py:220
 msgid "DSS"
-msgstr ""
+msgstr "FSS"
 
 #: standings/teams.py:231
 msgid "number of pullups before this round"
-msgstr ""
+msgstr "numero di pullup prima di questo round"
 
 #: standings/teams.py:232
 msgid "PU"
-msgstr ""
+msgstr "NP"
 
 #: standings/teams.py:254
 msgid "number of adjudicators who voted for this team"
-msgstr ""
+msgstr "numero di giudici che hanno votato per questa squadra"
 
 #: standings/teams.py:255
 msgid "Ballots"
-msgstr ""
+msgstr "Ballot"
 
 #: standings/teams.py:256
 msgid "votes/ballots carried"
-msgstr ""
+msgstr "voti/ballot"
 
 #: standings/teams.py:280
 msgid "number of firsts"
-msgstr ""
+msgstr "numero di primi"
 
 #: standings/teams.py:281
 msgid "1sts"
-msgstr ""
+msgstr "1mi"
 
 #: standings/teams.py:290
 msgid "number of seconds"
-msgstr ""
+msgstr "numero di secondi"
 
 #: standings/teams.py:291
 msgid "2nds"
-msgstr ""
+msgstr "2di"
 
 #: standings/teams.py:300
 msgid "number of thirds"
-msgstr ""
+msgstr "numero di terzi"
 
 #: standings/teams.py:301
 msgid "3rds"
-msgstr ""
+msgstr "3zi"
 
 #: standings/teams.py:313
 msgid "Who-beat-whom"
-msgstr ""
+msgstr "Chi-batte-chi"
 
 #: standings/teams.py:314
 msgid "WBW"
-msgstr ""
+msgstr "CBC"
 
 #: standings/teams.py:315
 msgid "who-beat-whom"
-msgstr ""
+msgstr "chi-batte-chi"
 
 #: standings/templates/current_standings.html:6
 msgid "It also excludes results from silent rounds (if any) and from the current round."
