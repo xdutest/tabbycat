@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-17 14:05\n"
+"PO-Revision-Date: 2022-04-17 14:14\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -695,7 +695,7 @@ msgstr "L'attuale <a href=\"%(option_url)s\" class=\"alert-link\">configurazione
 #: adjfeedback/templates/feedback_overview.html:22
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects all adjudicators (including trainees) to submit feedback on every other member of the panel (including trainees)."
-msgstr ""
+msgstr "L'attuale <a href=\"%(option_url)s\" class=\"alert-link\">configurazione di feedback</a> consente e prevede che tutti i giudici (inclusi i tirocinanti) presentino un feedback su ogni altro membro della giuria (inclusi i tirocinanti)."
 
 #: adjfeedback/templates/feedback_overview.html:30
 #, python-format
