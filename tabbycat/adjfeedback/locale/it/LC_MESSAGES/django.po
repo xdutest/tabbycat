@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-17 13:54\n"
+"PO-Revision-Date: 2022-04-17 14:05\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -618,26 +618,26 @@ msgstr "Su %(adjudicator)s"
 #: adjfeedback/templates/feedback_card.html:39
 #, python-format
 msgid "<span class=\"text-secondary small\">Received as %(as)s</span>"
-msgstr ""
+msgstr "<span class=\"text-secondary small\">Ricevuto come %(as)s</span>"
 
 #: adjfeedback/templates/feedback_card.html:43
 #, python-format
 msgid "Base %(base)s"
-msgstr ""
+msgstr "Base %(base)s"
 
 #: adjfeedback/templates/feedback_card.html:50
 #, python-format
 msgid "From %(source)s <span class=\"text-secondary small\">(their %(relationship)s)</span>"
-msgstr ""
+msgstr "Da %(source)s <span class=\"text-secondary small\">(il loro %(relationship)s)</span>"
 
 #: adjfeedback/templates/feedback_card.html:54
 #, python-format
 msgid "From %(source)s <span class=\"text-secondary small\">(%(relationship)s from %(side)s)</span>"
-msgstr ""
+msgstr "Da %(source)s <span class=\"text-secondary small\">(%(relationship)s da %(side)s)</span>"
 
 #: adjfeedback/templates/feedback_card.html:58
 msgid "From unknown"
-msgstr ""
+msgstr "Da sconosciuto"
 
 #: adjfeedback/templates/feedback_card.html:88
 #, python-format
@@ -646,51 +646,51 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_card.html:93
 msgid "Unconfirmed feedback is not counted as having been submitted and does not affect this adjudicator's score."
-msgstr ""
+msgstr "Il feedback non confermato non è conteggiato come è stato inviato e non influisce sul punteggio di questo giudice."
 
 #: adjfeedback/templates/feedback_card.html:98
 msgid "Un-confirm"
-msgstr ""
+msgstr "Non conferma"
 
 #: adjfeedback/templates/feedback_card.html:98
 msgid "Confirm"
-msgstr ""
+msgstr "Conferma"
 
 #: adjfeedback/templates/feedback_card.html:103
 msgid "Ignored feedback is counted as having been submitted, but does not affect this adjudicator's score."
-msgstr ""
+msgstr "Il feedback ignorato viene contato tra quelli inviati, ma non influisce sul punteggio di questo giudice."
 
 #: adjfeedback/templates/feedback_card.html:108
 msgid "Un-ignore"
-msgstr ""
+msgstr "Non ignorato"
 
 #: adjfeedback/templates/feedback_card.html:108
 msgid "Ignore"
-msgstr ""
+msgstr "Ignora"
 
 #: adjfeedback/templates/feedback_cards_list.html:17
 msgid "No feedback has been submitted yet"
-msgstr ""
+msgstr "Non è stato inviato ancora nessun feedback"
 
 #: adjfeedback/templates/feedback_overview.html:4
 #, python-format
 msgid "<span id=\"c_breaking\">%(c_breaking)s</span> marked as breaking"
-msgstr ""
+msgstr "<span id=\"c_breaking\">%(c_breaking)s</span> qualificatocontrassegnato come eliminatorie"
 
 #: adjfeedback/templates/feedback_overview.html:10
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects only chairs to submit feedback (on their panellists and trainees)."
-msgstr ""
+msgstr "L'attuale <a href=\"%(option_url)s\" class=\"alert-link\">configurazione di feedback</a> consente e prevede che solo gli arbitri presentino un feedback (sui loro arbitri e tirocinanti)."
 
 #: adjfeedback/templates/feedback_overview.html:14
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects both chairs and panellists to submit feedback on each other, and also chairs to submit feedback on trainees."
-msgstr ""
+msgstr "L'attuale <a href=\"%(option_url)s\" class=\"alert-link\">configurazione di feedback</a> consente e prevede che i giudici e le giurie presentino un feedback su loro stessi, inoltre i giudici inviano feedback sui tirocinanti."
 
 #: adjfeedback/templates/feedback_overview.html:18
 #, python-format
 msgid "The current <a href=\"%(option_url)s\" class=\"alert-link\">feedback configuration</a> allows and expects both panellists and trainees to submit feedback on chairs, and chairs to submit feedback on every other member of the panel (including trainees)."
-msgstr ""
+msgstr "L'attuale <a href=\"%(option_url)s\" class=\"alert-link\">configurazione di feedback</a> consente e prevede che le giurie ed i tirocinanti presentino un feedback sui giudici, inoltre i giudici inviano feedback su ogni altro membro della giuria (inclusi i tirocinanti)."
 
 #: adjfeedback/templates/feedback_overview.html:22
 #, python-format
