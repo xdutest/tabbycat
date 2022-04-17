@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-14 04:50+1100\n"
-"PO-Revision-Date: 2022-04-16 17:36\n"
+"PO-Revision-Date: 2022-04-17 08:45\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: printing/templates/PrintableBallotHeader.vue:
 msgid "Team"
-msgstr ""
+msgstr "Team"
 
 #: printing/templates/PrintableDebateInfo.vue:
 msgid "Mark speeches %1 to %2; <strong>%3</strong>."
