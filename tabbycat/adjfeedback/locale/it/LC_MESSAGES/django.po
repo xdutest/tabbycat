@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-17 08:28\n"
+"PO-Revision-Date: 2022-04-17 08:35\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -347,75 +347,75 @@ msgstr "dalle squadre"
 
 #: adjfeedback/models.py:159
 msgid "Teams should be asked this question"
-msgstr ""
+msgstr "Questa domanda dovrebbe essere fatta alle squadre"
 
 #: adjfeedback/models.py:162
 msgid "answer type"
-msgstr ""
+msgstr "tipo di risposta"
 
 #: adjfeedback/models.py:164
 msgid "required"
-msgstr ""
+msgstr "obbligatorio"
 
 #: adjfeedback/models.py:165
 msgid "Whether participants are required to fill out this field"
-msgstr ""
+msgstr "Indica se i partecipanti sono tenuti a compilare questo campo"
 
 #: adjfeedback/models.py:167
 msgid "minimum value"
-msgstr ""
+msgstr "valore minimo"
 
 #: adjfeedback/models.py:168
 msgid "Minimum allowed value for numeric fields (ignored for text or boolean fields)"
-msgstr ""
+msgstr "Valore minimo consentito per i campi numerici (ignorato per i campi di testo o numeri decimali)"
 
 #: adjfeedback/models.py:170
 msgid "maximum value"
-msgstr ""
+msgstr "valore massimo"
 
 #: adjfeedback/models.py:171
 msgid "Maximum allowed value for numeric fields (ignored for text or boolean fields)"
-msgstr ""
+msgstr "Valore massimo consentito per i campi numerici (ignorato per i campi di testo o numeri decimali)"
 
 #: adjfeedback/models.py:176
 msgid "choices"
-msgstr ""
+msgstr "scelte"
 
 #: adjfeedback/models.py:177
 msgid "Permissible choices for select one/multiple fields (ignored for other fields)"
-msgstr ""
+msgstr "Scelte consentite per selezionare uno o più campi (ignorati per altri campi)"
 
 #: adjfeedback/models.py:182
 msgid "adjudicator feedback question"
-msgstr ""
+msgstr "domanda di feedback giudice"
 
 #: adjfeedback/models.py:183
 msgid "adjudicator feedback questions"
-msgstr ""
+msgstr "domande di feedback giudice"
 
 #: adjfeedback/models.py:241 adjfeedback/views.py:768
 msgid "ignored"
-msgstr ""
+msgstr "ignorato"
 
 #: adjfeedback/models.py:242
 msgid "Whether the feedback should affect the adjudicator's score"
-msgstr ""
+msgstr "Se il feedback deve influenzare il punteggio del giudice"
 
 #: adjfeedback/models.py:246
 msgid "adjudicator feedback"
-msgstr ""
+msgstr "feedback giudice"
 
 #: adjfeedback/models.py:247
 msgid "adjudicator feedbacks"
-msgstr ""
+msgstr "feedback giudice"
 
 #: adjfeedback/models.py:307
 msgid "Either the source adjudicator or source team wasn't specified."
-msgstr ""
+msgstr "Il giudice o il team di origine non sono stati specificati."
 
 #: adjfeedback/models.py:310
 msgid "There was both a source adjudicator and a source team."
-msgstr ""
+msgstr "C'erano sia un giudice che una squadrea di partenza."
 
 #: adjfeedback/models.py:312
 msgid "There is no adjudicator specified as the target for this feedback. Perhaps they were deleted?"
