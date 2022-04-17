@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-29 23:49-0400\n"
-"PO-Revision-Date: 2022-04-17 08:45\n"
+"PO-Revision-Date: 2022-04-17 08:54\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -20,103 +20,103 @@ msgstr ""
 
 #: standings/base.py:297
 msgid "The same metric would be added twice:"
-msgstr ""
+msgstr "La stessa metrica verrebbe aggiunta due volte:"
 
 #: standings/base.py:298
 msgid "The same ranking would be added twice:"
-msgstr ""
+msgstr "La stessa classifica verrebbe aggiunta due volte:"
 
 #: standings/base.py:414
 #, python-format
 msgid "Unrecognized metric code: \"%(code)s\""
-msgstr ""
+msgstr "Codice metrico non riconosciuto: \"%(code)s\""
 
 #: standings/diversity.py:136 standings/diversity.py:166
 #: standings/diversity.py:187
 msgid "All"
-msgstr ""
+msgstr "Tutti"
 
 #: standings/diversity.py:140 standings/diversity.py:155
 #: standings/diversity.py:173 standings/diversity.py:191
 msgid "Breaking"
-msgstr ""
+msgstr "Qualifiche"
 
 #: standings/diversity.py:147
 #, python-format
 msgid "Not %(category)s"
-msgstr ""
+msgstr "Non %(category)s"
 
 #: standings/diversity.py:151
 msgid "All Speakers"
-msgstr ""
+msgstr "Tutti gli speaker"
 
 #: standings/diversity.py:169
 msgid "IAs"
-msgstr ""
+msgstr "IA"
 
 #: standings/diversity.py:177
 msgid "Chairs"
-msgstr ""
+msgstr "Arbitri"
 
 #: standings/diversity.py:177
 msgid "Panellists"
-msgstr ""
+msgstr "Giudici"
 
 #: standings/diversity.py:177
 msgid "Trainees"
-msgstr ""
+msgstr "Apprendista"
 
 #: standings/diversity.py:209
 msgid "Average Rating"
-msgstr ""
+msgstr "Punteggio medio"
 
 #: standings/diversity.py:210
 msgid "Median Rating"
-msgstr ""
+msgstr "Punteggio mediano"
 
 #: standings/diversity.py:211
 msgid "Upper Quartile Rating"
-msgstr ""
+msgstr "Punteggi quartile superiore"
 
 #: standings/diversity.py:212
 msgid "Lower Quartile Rating"
-msgstr ""
+msgstr "Punteggi quartile inferiore"
 
 #: standings/diversity.py:218
 msgid "Average Rating From Teams"
-msgstr ""
+msgstr "Valutazione media delle squadre"
 
 #: standings/diversity.py:219
 msgid "Average Rating From Chairs"
-msgstr ""
+msgstr "Punteggio medio per gli arbitri"
 
 #: standings/diversity.py:220
 msgid "Average Rating From Panellists"
-msgstr ""
+msgstr "Punteggio medio per i giudici"
 
 #: standings/diversity.py:221
 msgid "Average Rating From Trainees"
-msgstr ""
+msgstr "Punteggio medio per gli apprendisti"
 
 #: standings/diversity.py:246
 msgid "Average Score"
-msgstr ""
+msgstr "Punteggio medio"
 
 #: standings/diversity.py:247
 msgid "Median Score"
-msgstr ""
+msgstr "Punteggio mediano"
 
 #: standings/diversity.py:248
 msgid "Upper Quartile Score"
-msgstr ""
+msgstr "Punteggi quartile superiore"
 
 #: standings/diversity.py:249
 msgid "Lower Quartile Score"
-msgstr ""
+msgstr "Punteggi quartile inferiore"
 
 #: standings/diversity.py:256
 msgid "Reply Speaker Average"
-msgstr ""
+msgstr "Media arringa speaker"
 
 #: standings/diversity.py:257
 #, python-format
@@ -129,11 +129,11 @@ msgstr ""
 
 #: standings/speakers.py:50 standings/speakers.py:106
 msgid "total"
-msgstr ""
+msgstr "totale"
 
 #: standings/speakers.py:51 standings/speakers.py:107
 msgid "Total"
-msgstr ""
+msgstr "Totale"
 
 #: standings/speakers.py:58 standings/speakers.py:116
 msgid "average"
@@ -479,7 +479,7 @@ msgstr ""
 #: standings/templates/standings_menu.html:17
 msgctxt "All [Teams]"
 msgid "All"
-msgstr ""
+msgstr "Tutti"
 
 #: standings/templates/standings_menu.html:32
 msgid "Speakers"
@@ -493,7 +493,7 @@ msgstr ""
 #: standings/templates/standings_menu.html:39
 msgctxt "All [Speakers]"
 msgid "All"
-msgstr ""
+msgstr "Tutti"
 
 #: standings/templates/standings_menu.html:41
 msgid "Speakers "
