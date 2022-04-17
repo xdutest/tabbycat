@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-29 23:49-0400\n"
-"PO-Revision-Date: 2022-04-16 20:35\n"
+"PO-Revision-Date: 2022-04-17 08:45\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -149,7 +149,7 @@ msgstr "punti squadra"
 
 #: standings/speakers.py:67
 msgid "Team"
-msgstr ""
+msgstr "Team"
 
 #: standings/speakers.py:89 standings/speakers.py:126
 msgid "standard deviation"
@@ -613,7 +613,7 @@ msgstr ""
 
 #: standings/views.py:638
 msgid "Feedback Overview"
-msgstr ""
+msgstr "Panoramica Feedback"
 
 #: standings/views.py:655
 msgid "An adjudicator's score is determined by a customisable mix of their base score and their feedback ratings. The current mix is specified below as the 'Score Components.' Feedback ratings are determined by averaging the results of all individual pieces of feedback across all rounds. <a href='http://tabbycat.readthedocs.io/en/stable/features/adjudicator-feedback.html#how-is-an-adjudicator-s-score-determined'>Read more</a>."
