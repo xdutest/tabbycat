@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-17 08:45\n"
+"PO-Revision-Date: 2022-04-17 08:54\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -941,30 +941,30 @@ msgstr "Progresso Feedback"
 #, python-format
 msgid "%(nmissing)d missing feedback submission (%(fulfilled).1f%% returned)"
 msgid_plural "%(nmissing)d missing feedback submissions (%(fulfilled).1f%% returned)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(nmissing)d feedback mancante (%(fulfilled).1f%% restituito)"
+msgstr[1] "%(nmissing)d feedback mancanti (%(fulfilled).1f%% restituito)"
 
 #: adjfeedback/views.py:741
 #, python-format
 msgid "Feedback for %(adjudicator)s from %(source)s is now %(result)s."
-msgstr ""
+msgstr "Il feedback per %(adjudicator)s da %(source)s ora è %(result)s."
 
 #: adjfeedback/views.py:755
 msgid "confirmed"
-msgstr ""
+msgstr "confermato"
 
 #: adjfeedback/views.py:755
 msgid "un-confirmed"
-msgstr ""
+msgstr "non confermato"
 
 #: adjfeedback/views.py:768
 msgid "un-ignored"
-msgstr ""
+msgstr "non ignorato"
 
 #: adjfeedback/views.py:804
 #, python-format
 msgid "Updated base score for %(count)d adjudicator."
 msgid_plural "Updated base scores for %(count)d adjudicators."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Punteggio base aggiornato per %(count)d giudice."
+msgstr[1] "Punteggio base aggiornato per %(count)d giudici."
 
