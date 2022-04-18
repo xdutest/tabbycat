@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-18 16:57\n"
+"PO-Revision-Date: 2022-04-18 17:06\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -56,51 +56,51 @@ msgstr "Punteggio massimo consentito per i discorsi sostanziali"
 
 #: options/preferences.py:43
 msgid "Speaker score step"
-msgstr ""
+msgstr "Passo di punteggio speaker"
 
 #: options/preferences.py:44
 msgid "Score steps allowed for substantive speeches, e.g. full points (1) or half points (0.5)"
-msgstr ""
+msgstr "Intervallo tra i punteggi consentito per speech sostanziali, es. punti interi (1) o mezzo punto (0.5)"
 
 #: options/preferences.py:52
 msgid "The largest amount by which one team can beat another (0 means no limit)"
-msgstr ""
+msgstr "La più grande quantità con la quale una squadra può battere un'altra (0 significa nessun limite)"
 
 #: options/preferences.py:53
 msgid "Maximum margin"
-msgstr ""
+msgstr "Margine massimo"
 
 #: options/preferences.py:62
 msgid "Minimum allowed score for reply speeches"
-msgstr ""
+msgstr "Punteggio minimo consentito per i discorsi di arringa"
 
 #: options/preferences.py:63
 msgid "Minimum reply score"
-msgstr ""
+msgstr "Punteggio minimo arringa"
 
 #: options/preferences.py:71
 msgid "Maximum allowed score for reply speeches"
-msgstr ""
+msgstr "Punteggio massimo consentito per i discorsi di arringa"
 
 #: options/preferences.py:72
 msgid "Maximum reply score"
-msgstr ""
+msgstr "Punteggio massimo arringa"
 
 #: options/preferences.py:80
 msgid "Score steps allowed for reply speeches, e.g. full points (1) or half points (0.5)"
-msgstr ""
+msgstr "Intervallo tra i punteggi consentito per speech di arringa, es. punti interi (1) o mezzo punto (0.5)"
 
 #: options/preferences.py:81
 msgid "Reply score step"
-msgstr ""
+msgstr "Passo di punteggio risposta"
 
 #: options/preferences.py:89
 msgid "If checked, a team's winning margin includes dissenting adjudicators"
-msgstr ""
+msgstr "Se selezionato, il margine vincente di una squadra include i giudici dissenzienti"
 
 #: options/preferences.py:90
 msgid "Margin includes dissenters"
-msgstr ""
+msgstr "Il margine include i dissidenti"
 
 #: options/preferences.py:98
 msgid "If checked, all speaker scores, including for duplicate speeches, will be counted for team scores"
