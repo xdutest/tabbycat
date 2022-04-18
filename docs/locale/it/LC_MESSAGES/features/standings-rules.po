@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-31 10:38-0400\n"
-"PO-Revision-Date: 2022-04-17 09:05\n"
+"PO-Revision-Date: 2022-04-18 13:55\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../features/standings-rules.rst:39
 msgid "Points"
-msgstr ""
+msgstr "Punti"
 
 #: ../../features/standings-rules.rst:40
 msgid "How many points the team has. For two-team formats, this is just a synonym for wins, and differs only in column labelling. For BP, this is 3 points for a first, 2 for a second, 1 for a third and 0 for a fourth."
