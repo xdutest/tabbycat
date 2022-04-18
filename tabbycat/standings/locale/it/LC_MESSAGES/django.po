@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-29 23:49-0400\n"
-"PO-Revision-Date: 2022-04-18 11:45\n"
+"PO-Revision-Date: 2022-04-18 11:58\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -377,43 +377,43 @@ msgstr "In questa classifica appaiono tutti gli speaker, non importa quanti diba
 #: standings/templates/speaker_standings.html:48
 #, python-format
 msgid "Enforcing the limit on the number of missed debates requires the \"number of speeches given\" metric to be included in the speaker standings calculations, so it's been automatically added. To remove this warning message, add <strong>Number of speeches given</strong> to the <strong>Speaker standings extra metrics</strong> in the <a href=\"%(standings_config_url)s\" class=\"alert-link\">Standings section of this tournament's configuration</a>."
-msgstr ""
+msgstr "L'applicazione del limite al numero di dibattiti non svolti richiede che il \"numero di speech fatti\" sia incluso nei calcoli della classifica degli oratori, quindi è stato aggiunto automaticamente. Per rimuovere questo messaggio di avviso, aggiungi <strong>Numero di discorsi fatti</strong> alle <strong>metriche extra di classifica speaker</strong> nella sezione <a href=\"%(standings_config_url)s\" class=\"alert-link\">Configurazione classifiche di questo torneo</a>."
 
 #: standings/templates/standings_diversity.html:4
 #: standings/templates/standings_diversity.html:5
 msgid "Diversity Overview"
-msgstr ""
+msgstr "Panoramica Diversità"
 
 #: standings/templates/standings_diversity.html:22
 msgid "The results data displayed here is presented without tests for statistical significance. Correlations should not be automatically considered reliable; particularly at small tournaments. A 'region' is a customisable category assigned to a set of institutions, and counted using the number of participants assigned to those institutions."
-msgstr ""
+msgstr "I dati visualizzati qui sono presentati senza analisi di rilevanza statistica. Le correlazioni non devono essere automaticamente considerate affidabili, in particolare in piccoli tornei. Una 'regione' è una categoria personalizzabile assegnata ad un insieme di istituzioni e contata utilizzando il numero di partecipanti assegnati a tali istituzioni."
 
 #: standings/templates/standings_diversity.html:37
 msgid "Non-cis male identifying"
-msgstr ""
+msgstr "Identificatore non maschile"
 
 #: standings/templates/standings_diversity.html:40
 msgid "Cis-male identifying"
-msgstr ""
+msgstr "Identificato maschile"
 
 #: standings/templates/standings_diversity.html:43
 msgid "Unspecified/unrecorded"
-msgstr ""
+msgstr "Non specificato/non registrato"
 
 #: standings/templates/standings_index.html:5
 #: standings/templates/standings_index.html:6
 msgid "Standings"
-msgstr ""
+msgstr "Classifiche"
 
 #: standings/templates/standings_index.html:18
 msgid "Top Speaks"
-msgstr ""
+msgstr "Punteggi migliori"
 
 #: standings/templates/standings_index.html:22
 #: standings/templates/standings_index.html:41
 #, python-format
 msgid "%(speaker)s in %(round)s"
-msgstr ""
+msgstr "%(speaker)s in %(round)s"
 
 #: standings/templates/standings_index.html:28
 #: standings/templates/standings_index.html:47
@@ -425,47 +425,47 @@ msgstr ""
 #: standings/templates/standings_index.html:167
 #: standings/templates/standings_index.html:186
 msgid "No data yet"
-msgstr ""
+msgstr "Ancora nessun dato"
 
 #: standings/templates/standings_index.html:37
 msgid "Bottom Speaks"
-msgstr ""
+msgstr "Punteggi più bassi"
 
 #: standings/templates/standings_index.html:56
 msgid "Largest Margins"
-msgstr ""
+msgstr "Margini maggiori"
 
 #: standings/templates/standings_index.html:60
 #: standings/templates/standings_index.html:81
 #, python-format
 msgid "%(team)s vs %(opp)s in %(round)s"
-msgstr ""
+msgstr "%(team)s vs %(opp)s in %(round)s"
 
 #: standings/templates/standings_index.html:77
 msgid "Closest Margins"
-msgstr ""
+msgstr "Risultati più vicini"
 
 #: standings/templates/standings_index.html:98
 msgid "Top Team Scores"
-msgstr ""
+msgstr "Punteggi squadre migliori"
 
 #: standings/templates/standings_index.html:102
 #: standings/templates/standings_index.html:123
 #, python-format
 msgid "%(team)s in %(round)s"
-msgstr ""
+msgstr "%(team)s in %(round)s"
 
 #: standings/templates/standings_index.html:119
 msgid "Bottom Team Scores"
-msgstr ""
+msgstr "Punteggi squadre peggiori"
 
 #: standings/templates/standings_index.html:140
 msgid "Most/Least Popular Motions"
-msgstr ""
+msgstr "Mozioni Più/Meno Popolari"
 
 #: standings/templates/standings_index.html:177
 msgid "Average Speaks"
-msgstr ""
+msgstr "Meddia punti speech"
 
 #: standings/templates/standings_menu.html:6
 msgid "Overview"
@@ -474,7 +474,7 @@ msgstr "Panoramica"
 #: standings/templates/standings_menu.html:12
 #: standings/templates/standings_menu.html:19
 msgid "Teams"
-msgstr ""
+msgstr "Squadre"
 
 #: standings/templates/standings_menu.html:17
 msgctxt "All [Teams]"
@@ -483,12 +483,12 @@ msgstr "Tutti"
 
 #: standings/templates/standings_menu.html:32
 msgid "Speakers"
-msgstr ""
+msgstr "Speaker"
 
 #: standings/templates/standings_menu.html:37
 msgctxt "Substantive speeches"
 msgid "Substantives"
-msgstr ""
+msgstr "Sostanziali"
 
 #: standings/templates/standings_menu.html:39
 msgctxt "All [Speakers]"
@@ -497,7 +497,7 @@ msgstr "Tutti"
 
 #: standings/templates/standings_menu.html:41
 msgid "Speakers "
-msgstr ""
+msgstr "Speaker "
 
 #: standings/templates/standings_menu.html:47
 #, python-format
@@ -506,30 +506,30 @@ msgstr ""
 
 #: standings/templates/standings_menu.html:55
 msgid "Replies"
-msgstr ""
+msgstr "Arringhe"
 
 #: standings/templates/standings_menu.html:63
 #: standings/templates/standings_menu.html:76
 msgid "Motions"
-msgstr ""
+msgstr "Mozioni"
 
 #: standings/templates/standings_menu.html:66
 msgid "By Round"
-msgstr ""
+msgstr "Per Turno"
 
 #: standings/templates/standings_menu.html:81
 msgid "Diversity"
-msgstr ""
+msgstr "Diversità"
 
 #: standings/templates/team_standings.html:10
 #, python-format
 msgid "The team standings precedence is empty. This means that teams aren't ranked according to any metrics, so everyone is first equal. If this isn't what you intended, set the team standings precedence in the <a href=\"%(standings_config_url)s\" class=\"alert-link\">Standings section of this tournament's configuration</a>. In most tournaments, the first metric should be points or wins."
-msgstr ""
+msgstr "La classifica delle squadre è vuota. Ciò significa che le squadre non sono classificate in base a nessuna metrica, quindi tutti sono tutti primi a pari merito. Se questo non è quello che volevi, imposta la classifica delle squadre nella sezione <a href=\"%(standings_config_url)s\" class=\"alert-link\">Configurazione classifiche di questo torneo</a>. Nella maggior parte dei tornei, la prima metrica dovrebbe essere punti o vittorie."
 
 #: standings/views.py:99
 #, python-format
 msgid "<p>There was an error generating the standings: <em>%(message)s</em></p>"
-msgstr ""
+msgstr "<p>Si è verificato un errore durante la generazione della classifica: <em>%(message)s</em></p>"
 
 #: standings/views.py:104
 #, python-format
