@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2021-06-25 17:28\n"
+"PO-Revision-Date: 2022-04-18 16:35\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -20,49 +20,49 @@ msgstr ""
 
 #: privateurls/apps.py:7
 msgid "Private URL Management"
-msgstr ""
+msgstr "Gestione URL privati"
 
 #: privateurls/templates/private_urls.html:4
 #: privateurls/templates/private_urls.html:5 privateurls/views.py:145
 msgid "Private URLs"
-msgstr ""
+msgstr "URL privati"
 
 #: privateurls/templates/private_urls.html:17
 msgid "The private URLs for ballot and/or feedback submission from participants are given below."
-msgstr ""
+msgstr "Gli URL privati per i ballot e/o le sottomissioni di feedback dei partecipanti sono riportati di seguito."
 
 #: privateurls/templates/private_urls.html:19
 msgid "Private URLs are used to allow participants to submit ballots and/or feedback online. You should use them if you have a means of distributing crazy-looking URLs to participants, and are too worried about fraud to use a publicly accessible page where <em>anyone</em> can enter <em>any</em> submission. The URLs will look something like this:"
-msgstr ""
+msgstr "Gli URL privati sono utilizzati per consentire ai partecipanti di inviare ballot e/o feedback online. Dovresti usarli se hai un mezzo per distribuire URL difficili da ricordare ai partecipanti, e sono troppo preoccupati per le possibil frodi nell'utilizzare una pagina accessibile al pubblico dove <em>chiunque</em> può inserire <em>qualsiasi</em> informazione. Gli URL assomiglieranno a questo:"
 
 #: privateurls/templates/private_urls.html:31
 msgid "Anyone with the URL can access the relevant data entry page. The idea is that it's hard to guess another key (the random-looking string), so you should make each URL accessible only to the participant in question. <a href=\"http://tabbycat.readthedocs.io/en/latest/features/data-entry.html#private-urls\"> Read more about private URLs.</a>"
-msgstr ""
+msgstr "Chiunque abbia l'URL può accedere alla relativa pagina di inserimento dati. L'idea è che è difficile indovinare un'altra chiave (la stringa dall'aspetto casuale), in modo da rendere ogni URL accessibile solo al partecipante in questione. <a href=\"http://tabbycat.readthedocs.io/en/latest/features/data-entry.html#private-urls\"> Per saperne di più sugli URL privati.</a>"
 
 #: privateurls/templates/private_urls.html:47
 #, python-format
 msgid "Neither <strong>participant ballot submissions</strong>, <strong>participant feedback submissions</strong>, nor <strong>participant self-checkins</strong> are configured to be from private URLs. Any generated URLs will not be useful unless you configure those settings accordingly on the <a href=\"%(data_entry_options_url)s\">tournament configuration page</a>."
-msgstr ""
+msgstr "Ne <strong>i form di ballot per partecipanti</strong>, <strong>i feedback dei partecipanti</strong>, né <strong>gli auto-checkins dei partecipanti</strong> sono configurati per essere da URL privati. Qualsiasi URL generato sarà inutile a meno che tu non configuri queste impostazioni di conseguenza nella <a href=\"%(data_entry_options_url)s\">pagina di configurazione del torneo</a>."
 
 #: privateurls/templates/private_urls.html:67
 msgid "There are no private URLs assigned."
-msgstr ""
+msgstr "Non ci sono URL privati assegnati."
 
 #: privateurls/templates/private_urls.html:73
 msgid "Generate Private URLs"
-msgstr ""
+msgstr "Genera URL Privati"
 
 #: privateurls/templates/private_urls_nav.html:6
 msgid "View URLs"
-msgstr ""
+msgstr "Visualizza URL"
 
 #: privateurls/templates/private_urls_nav.html:11
 msgid "Print Teams' URLs"
-msgstr ""
+msgstr "Stampa Gli URL Dei Team"
 
 #: privateurls/templates/private_urls_nav.html:15
 msgid "Print Adjudicators' URLs"
-msgstr ""
+msgstr "Stampa URL dei giudici"
 
 #: privateurls/templates/private_urls_nav.html:22
 msgid "All reachable participants have already been sent their private URLs."
