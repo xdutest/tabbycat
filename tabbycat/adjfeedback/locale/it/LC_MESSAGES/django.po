@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-18 11:26\n"
+"PO-Revision-Date: 2022-04-18 11:36\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -701,8 +701,8 @@ msgstr "L'attuale <a href=\"%(option_url)s\" class=\"alert-link\">configurazione
 #, python-format
 msgid "There is <strong>%(nadjs_outside_range)s adjudicator</strong> with a score <strong>outside the permitted range</strong> of adjudicator scores, which is currently set as %(min_score)s to %(max_score)s. This can cause adjudicator auto-allocation to behave in unexpected ways. If you'd like to use a wider score range, you can configure this in <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> feedback settings</a>."
 msgid_plural "There are <strong>%(nadjs_outside_range)s adjudicators</strong> with scores <strong>outside the permitted range</strong> of adjudicator scores, which is currently set as %(min_score)s to %(max_score)s. This can cause adjudicator auto-allocation to behave in unexpected ways. If you'd like to use a wider score range, you can configure this in <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> feedback settings</a>."
-msgstr[0] "C'è <strong>%(nadjs_outside_range)s giudice</strong> con un punteggio <strong>Fuori dal range consentito</strong> dei punteggi giudice, che è attualemtne impostato da %(min_score)s a %(max_score)s. Ciò potrebbe causare un comportamento anomalo dell'assegnazione automatica dei giudici. Se si desidera utilizzare un range più ampio, è possibile configurarlo nelle <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> impostazioni feedback</a>."
-msgstr[1] "Ci sono <strong>%(nadjs_outside_range)s giudici</strong> con un punteggio <strong>fuori dal range consentito</strong> dei punteggi giudice, che è attualemtne impostato da %(min_score)s a %(max_score)s. Ciò potrebbe causare un comportamento anomalo dell'assegnazione automatica dei giudici. Se si desidera utilizzare un range più ampio, è possibile configurarlo nelle <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> impostazioni feedback</a>."
+msgstr[0] "C'è <strong>%(nadjs_outside_range)s giudice</strong> con un punteggio <strong>Fuori dal range consentito</strong> dei punteggi giudice, che è attualemtne impostato da %(min_score)s a %(max_score)s. Ciò potrebbe causare un comportamento anomalo dell'assegnazione automatica dei giudici. Se si desidera utilizzare un range più ampio, è possibile configurarlo nelle <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> impostazioni di feedback</a>."
+msgstr[1] "Ci sono <strong>%(nadjs_outside_range)s giudici</strong> con un punteggio <strong>fuori dal range consentito</strong> dei punteggi giudice, che è attualemtne impostato da %(min_score)s a %(max_score)s. Ciò potrebbe causare un comportamento anomalo dell'assegnazione automatica dei giudici. Se si desidera utilizzare un range più ampio, è possibile configurarlo nelle <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> impostazioni di feedback</a>."
 
 #: adjfeedback/templates/overview_breakdowns.html:13
 #, python-format
@@ -751,85 +751,85 @@ msgstr[1] "Ci sono %(c_debates)s dibattiti per round, ma solo %(c_chairs)s oltre
 #, python-format
 msgid "%(c_chairs)s chair"
 msgid_plural "%(c_chairs)s chairs"
-msgstr[0] "%(c_chairs)s giudice"
-msgstr[1] "%(c_chairs)s giudici"
+msgstr[0] "%(c_chairs)s giudice arbitro"
+msgstr[1] "%(c_chairs)s giudici arbitri"
 
 #: adjfeedback/templates/overview_breakdowns.html:95
 msgid "All adjudicators with a score high enough to vote, but who aren't allocated as chairs, are allocated as panellists by the auto-allocator."
-msgstr ""
+msgstr "Tutti i giudici con un punteggio abbastanza alto per votare, ma che non sono assegnati per arbitrare, sono assegnati come giudici dal sistema automatico."
 
 #: adjfeedback/templates/overview_breakdowns.html:99
 #, python-format
 msgid "%(c_panellists)s panellist"
 msgid_plural "%(c_panellists)s panellists"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(c_panellists)s giudice"
+msgstr[1] "%(c_panellists)s giudici"
 
 #: adjfeedback/templates/overview_breakdowns.html:109
 #, python-format
 msgid "Adjudicators are allocated as trainees by the auto-allocator if their score is less than the 'minimum voting score' (currently %(min_voting)s) set in this tournament's Draw Rules configuration."
-msgstr ""
+msgstr "I giudici vengono assegnati come apprendisti dal sistema automatico se il loro punteggio è inferiore al 'punteggio minimo di voto' (attualmente %(min_voting)s) impostato nella configurazione delle Regole di sorteggio di questo torneo."
 
 #: adjfeedback/templates/overview_breakdowns.html:114
 #, python-format
 msgid "%(c_trainees)s trainee"
 msgid_plural "%(c_trainees)s trainees"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(c_trainees)s apprendista"
+msgstr[1] "%(c_trainees)s apprendisti"
 
 #: adjfeedback/templates/overview_breakdowns.html:123
 #, python-format
 msgid "Auto-Allocate Distributions (%(min_voting_score)s+ to vote)"
-msgstr ""
+msgstr "Distribuzioni Auto-assegnate (%(min_voting_score)s+ per votare)"
 
 #: adjfeedback/templates/overview_modals.html:10
 msgid "Change Base Score"
-msgstr ""
+msgstr "Cambia il punteggio base"
 
 #: adjfeedback/templates/overview_modals.html:17
 #, python-format
 msgid "The score range for adjudicators is between <strong>%(pref.adj_min_score)s</strong> and <strong>%(pref.adj_max_score)s</strong>. Decimals are permitted. This can be configured in <a href=\"%(feedback_options)s\">Feedback settings</a>."
-msgstr ""
+msgstr "L'intervallo di punteggio per i giudici è compreso tra <strong>%(pref.adj_min_score)s</strong> e <strong>%(pref.adj_max_score)s</strong>. Sono permessi decimali. Questo può essere configurato nelle <a href=\"%(feedback_options)s\">Impostazioni di Feedback</a>."
 
 #: adjfeedback/templates/overview_modals.html:25
 #, python-format
 msgid "The minimum score require to be allocated as a panellist or chair (when using the auto-allocator) is <strong>%(min_voting_score)s</strong>. This can be configured in <a href=\"%(draw_rules)s\">Draw settings</a>."
-msgstr ""
+msgstr "La richiesta di punteggio minimo per essere assegnato come giudice o giudice arbitro (quando si utilizza il sistema automatico) è <strong>%(min_voting_score)s</strong>. È possibile configurarlo nelle <a href=\"%(draw_rules)s\">Impostazioni del sorteggio</a>."
 
 #: adjfeedback/templates/overview_modals.html:34
 msgid "Base score"
-msgstr ""
+msgstr "Punteggio base"
 
 #: adjfeedback/templates/overview_modals.html:41
 msgid "Save Base Score"
-msgstr ""
+msgstr "Salva punteggio base"
 
 #: adjfeedback/templates/public_add_feedback.html:4
 msgid "Who are you?"
-msgstr ""
+msgstr "Chi sei?"
 
 #: adjfeedback/templates/public_add_feedback.html:5
 msgid "click your name or your team on this list"
-msgstr ""
+msgstr "seleziona il tuo nome o il tuo team in questo elenco"
 
 #: adjfeedback/templates/update_adjudicator_scores.html:4
 #: adjfeedback/templates/update_adjudicator_scores.html:6
 msgctxt "page title"
 msgid "Update Adjudicator Scores"
-msgstr ""
+msgstr "Aggiorna Punteggi giudice"
 
 #: adjfeedback/templates/update_adjudicator_scores.html:11
 #, python-format
 msgid "There aren't any adjudicators in this tournament, so you can't update any scores. You might want to <a href=\"%(import_url)s\" class=\"alert-link\">import some adjudicators</a> first."
-msgstr ""
+msgstr "In questo torneo non c'è nessun giudice, quindi non puoi aggiornare nessun punteggio. Potresti prima voler <a href=\"%(import_url)s\" class=\"alert-link\">importare alcuni giudici</a>."
 
 #: adjfeedback/templates/update_adjudicator_scores.html:28
 msgid "Paste a list of adjudicators' names and their new scores, in the format: <code>adjudicator,score</code>. For example:"
-msgstr ""
+msgstr "Incolla un elenco dei nomi dei giudici e dei loro nuovi punteggi, nel formato: <code>giudice,punteggio</code>. Per esempio:"
 
 #: adjfeedback/templates/update_adjudicator_scores.html:40
 msgid "The adjudicators' names must match their names in the tab system exactly."
-msgstr ""
+msgstr "I nomi dei giudici devono corrispondere esattamente ai loro nomi nel sistema di tab."
 
 #: adjfeedback/templates/update_adjudicator_scores.html:47
 msgid "There are some problems with the data on this form:"
