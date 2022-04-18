@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-18 11:06\n"
+"PO-Revision-Date: 2022-04-18 11:26\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -737,22 +737,22 @@ msgstr "Rapporto Punteggio"
 #, python-format
 msgid "There is %(c_chairs)s debate per round, so there needs to be %(c_chairs)s chair."
 msgid_plural "There are %(c_chairs)s debates per round, so there need to be %(c_chairs)s chairs."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "C'è %(c_chairs)s dibattito per round, quindi c'è bisogno di %(c_chairs)s giudice."
+msgstr[1] "Ci sono %(c_chairs)s dibattiti per round, quindi c'è bisogno di %(c_chairs)s giudici."
 
 #: adjfeedback/templates/overview_breakdowns.html:78
 #, python-format
 msgid "There is %(c_debates)s debate per round, but only %(c_chairs)s above the minimum voting score."
 msgid_plural "There are %(c_debates)s debates per round, but only %(c_chairs)s above the minimum voting score."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "C'è %(c_debates)s dibattito per round, ma solo %(c_chairs)s oltre il punteggio minimo per votare."
+msgstr[1] "Ci sono %(c_debates)s dibattiti per round, ma solo %(c_chairs)s oltre il punteggio minimo per votare."
 
 #: adjfeedback/templates/overview_breakdowns.html:85
 #, python-format
 msgid "%(c_chairs)s chair"
 msgid_plural "%(c_chairs)s chairs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(c_chairs)s giudice"
+msgstr[1] "%(c_chairs)s giudici"
 
 #: adjfeedback/templates/overview_breakdowns.html:95
 msgid "All adjudicators with a score high enough to vote, but who aren't allocated as chairs, are allocated as panellists by the auto-allocator."
