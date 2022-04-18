@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-18 11:06\n"
+"PO-Revision-Date: 2022-04-18 16:57\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -20,39 +20,39 @@ msgstr ""
 
 #: options/apps.py:10
 msgid "Tournament Options"
-msgstr ""
+msgstr "Opzioni del torneo"
 
 #: options/models.py:13
 msgid "instance"
-msgstr ""
+msgstr "istanza"
 
 #: options/models.py:18
 msgid "tournament preference"
-msgstr ""
+msgstr "preferenze del torneo"
 
 #: options/models.py:19
 msgid "tournament preferences"
-msgstr ""
+msgstr "preferenze del torneo"
 
 #: options/preferences.py:19 options/templates/preferences_index.html:53
 msgid "Score Rules"
-msgstr ""
+msgstr "Regole di punteggio"
 
 #: options/preferences.py:25
 msgid "Minimum allowed score for substantive speeches"
-msgstr ""
+msgstr "Punteggio minimo consentito per i discorsi sostanziali"
 
 #: options/preferences.py:28
 msgid "Minimum speaker score"
-msgstr ""
+msgstr "Punteggio minimo dello speaker"
 
 #: options/preferences.py:34
 msgid "Maximum speaker score"
-msgstr ""
+msgstr "Punteggio massimo dello speaker"
 
 #: options/preferences.py:35
 msgid "Maximum allowed score for substantive speeches"
-msgstr ""
+msgstr "Punteggio massimo consentito per i discorsi sostanziali"
 
 #: options/preferences.py:43
 msgid "Speaker score step"
