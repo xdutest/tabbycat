@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-18 14:16\n"
+"PO-Revision-Date: 2022-04-18 14:25\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -291,98 +291,98 @@ msgstr "Questo sostituirà tutte le mozioni presenti per questo round. Le mozion
 
 #: motions/templates/motions_edit.html:30
 msgid "Reuse Motions from Last Round"
-msgstr ""
+msgstr "Riutilizza le mozioni dal round precedente"
 
 #: motions/templates/motions_edit.html:35
 msgid "Use Existing Motions"
-msgstr ""
+msgstr "Usa le mozioni esistenti"
 
 #: motions/templates/motions_edit.html:74
 msgid "Save Motion"
 msgid_plural "Save Motions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Salva mozione"
+msgstr[1] "Salva mozioni"
 
 #: motions/templates/motions_info.html:8
 msgid "Info Slide"
-msgstr ""
+msgstr "Slide informazioni"
 
 #: motions/templates/public_motions.html:41
 msgid "There are no motions available for this round."
-msgstr ""
+msgstr "Non ci sono mozioni disponibili per questo round."
 
 #: motions/templates/public_motions.html:47
 msgid "The motions for this round have not been released."
-msgstr ""
+msgstr "Le mozioni per questo round non sono state rilasciate."
 
 #: motions/templates/public_motions.html:52
 msgid "The motion for this round has not been released."
-msgstr ""
+msgstr "La mozione per questo round non è stata rilasciata."
 
 #: motions/templates/show.html:16
 #, python-format
 msgid "Reveal Info Slide for %(round)s"
 msgid_plural "Reveal Info Slides for %(round)s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rivela la slide di informazioni per %(round)s"
+msgstr[1] "Rivela le slide di informazioni per %(round)s"
 
 #: motions/templates/show.html:24
 #, python-format
 msgid "Reveal Motion for %(round)s"
 msgid_plural "Reveal Motions for %(round)s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rivela la mozione per %(round)s"
+msgstr[1] "Rivela le mozioni per %(round)s"
 
 #: motions/templates/show.html:41
 msgid "There are no motions for this round entered into Tabbycat."
-msgstr ""
+msgstr "Non ci sono mozioni per questo round inserite in Tabbycat."
 
 #: motions/utils.py:11
 msgid "Not all latest ballots list the same motion, so could not be merged."
-msgstr ""
+msgstr "Non tutti gli ultimi ballot mostrano la stessa mozione, quindi non possono essere uniti."
 
 #: motions/utils.py:29
 msgid "Motion vetos are inconsistent, so could not be merged."
-msgstr ""
+msgstr "I veti sulla mozione non sono consistenti, quindi non possono essere uniti."
 
 #: motions/views.py:91
 msgid "The motion has been saved."
-msgstr ""
+msgstr "La mozione è stata salvata."
 
 #: motions/views.py:93
 #, python-format
 msgid "%(count)d motion has been saved."
 msgid_plural "%(count)d motions have been saved."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d mozione salvata."
+msgstr[1] "%(count)d mozioni salvate."
 
 #: motions/views.py:97
 #, python-format
 msgid "%(count)d motion has been deleted."
 msgid_plural "%(count)d motions have been deleted."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d mozione eliminata."
+msgstr[1] "%(count)d mozioni eliminate."
 
 #: motions/views.py:140
 #, python-format
 msgid "Reused the motion from the previous round."
 msgid_plural "Reused the %(count)d motions from the previous round."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mozione del round precedente riutilizzata."
+msgstr[1] "%(count)d mozioni del round precedente riutilizzate."
 
 #: motions/views.py:164
 msgid "Released the motion(s)."
-msgstr ""
+msgstr "Mozione(i) rilasciata(e)."
 
 #: motions/views.py:171
 msgid "Unreleased the motion(s)."
-msgstr ""
+msgstr "Mozione(i) nono rilasciata(e)."
 
 #: motions/views.py:195
 msgid "Round Motions"
-msgstr ""
+msgstr "Mozioni del round"
 
 #: motions/views.py:209
 msgid "Motion Statistics"
-msgstr ""
+msgstr "Statistiche mozione"
 
