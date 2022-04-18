@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-04-17 14:14\n"
+"PO-Revision-Date: 2022-04-18 10:55\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -701,14 +701,14 @@ msgstr "L'attuale <a href=\"%(option_url)s\" class=\"alert-link\">configurazione
 #, python-format
 msgid "There is <strong>%(nadjs_outside_range)s adjudicator</strong> with a score <strong>outside the permitted range</strong> of adjudicator scores, which is currently set as %(min_score)s to %(max_score)s. This can cause adjudicator auto-allocation to behave in unexpected ways. If you'd like to use a wider score range, you can configure this in <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> feedback settings</a>."
 msgid_plural "There are <strong>%(nadjs_outside_range)s adjudicators</strong> with scores <strong>outside the permitted range</strong> of adjudicator scores, which is currently set as %(min_score)s to %(max_score)s. This can cause adjudicator auto-allocation to behave in unexpected ways. If you'd like to use a wider score range, you can configure this in <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> feedback settings</a>."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "C'è <strong>%(nadjs_outside_range)s giudice</strong> con un punteggio <strong>Fuori dal range consentito</strong> dei punteggi giudice, che è attualemtne impostato da %(min_score)s a %(max_score)s. Ciò potrebbe causare un comportamento anomalo dell'assegnazione automatica dei giudici. Se si desidera utilizzare un range più ampio, è possibile configurarlo nelle <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> impostazioni feedback</a>."
+msgstr[1] "Ci sono <strong>%(nadjs_outside_range)s giudici</strong> con un punteggio <strong>fuori dal range consentito</strong> dei punteggi giudice, che è attualemtne impostato da %(min_score)s a %(max_score)s. Ciò potrebbe causare un comportamento anomalo dell'assegnazione automatica dei giudici. Se si desidera utilizzare un range più ampio, è possibile configurarlo nelle <a href=\"%(feedback_settings_url)s\" class=\"alert-link\"> impostazioni feedback</a>."
 
 #: adjfeedback/templates/overview_breakdowns.html:13
 #, python-format
 msgid "%(count)s adjudicator currently has a score equal to or above %(min)s and below %(max)s. That is %(percent)s%% of the adjudicator pool."
 msgid_plural "%(count)s adjudicators currently have a score equal to or above %(min)s and below %(max)s. That is %(percent)s%% of the adjudicator pool."
-msgstr[0] ""
+msgstr[0] "%(count)s giudice ha attualmente un punteggio uguale o superiore a %(min)s e inferiore a %(max)s. Questo è %(percent)s%% dell'insieme dei giudici."
 msgstr[1] ""
 
 #: adjfeedback/templates/overview_breakdowns.html:27
