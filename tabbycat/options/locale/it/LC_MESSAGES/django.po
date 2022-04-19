@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-19 11:00\n"
+"PO-Revision-Date: 2022-04-19 11:20\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -304,15 +304,15 @@ msgstr "Scegli tra squadre con la forza dei dibattiti vinti più bassi finora"
 
 #: options/preferences.py:257
 msgid "Choose from teams with the lowest draw strength by speaks so far"
-msgstr ""
+msgstr "Scegli tra squadre con la forza sorteggio per ogni discorso finora"
 
 #: options/preferences.py:264
 msgid "In BP, how pullups are distributed. Only \"Anywhere\" is WUDC-compliant."
-msgstr ""
+msgstr "In BP, come vengono distribuiti gli spostamenti. Solo \"Dovunque\" è conforme a WUDC."
 
 #: options/preferences.py:265
 msgid "BP pullup distribution"
-msgstr ""
+msgstr "Distribuzione spostamenti BP"
 
 #: options/preferences.py:269
 msgid "Anywhere in bracket"
