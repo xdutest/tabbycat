@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-19 10:51\n"
+"PO-Revision-Date: 2022-04-19 11:00\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -188,119 +188,119 @@ msgstr "Metodo di gestione gruppi dispari"
 
 #: options/preferences.py:189
 msgid "Pull up from top"
-msgstr "Estrai dall'alto"
+msgstr "Prendi dall'alto"
 
 #: options/preferences.py:190
 msgid "Pull up from bottom"
-msgstr ""
+msgstr "Prendi dal basso"
 
 #: options/preferences.py:191
 msgid "Pull up from middle"
-msgstr ""
+msgstr "Prendi al centro"
 
 #: options/preferences.py:192
 msgid "Pull up at random"
-msgstr ""
+msgstr "Prendi a caso"
 
 #: options/preferences.py:193
 msgid "Intermediate brackets"
-msgstr ""
+msgstr "Gruppi intermedi"
 
 #: options/preferences.py:194
 msgid "Intermediate brackets with bubble-up-bubble-down"
-msgstr ""
+msgstr "Gruppi intermedi con prendi dall'alto-dal basso"
 
 #: options/preferences.py:195
 msgid "Intermediate 1 (pre-allocated sides)"
-msgstr ""
+msgstr "Intermedio 1 (parti preassegnate)"
 
 #: options/preferences.py:196
 msgid "Intermediate 2 (pre-allocated sides)"
-msgstr ""
+msgstr "Intermedio 2 (parti preassegnate)"
 
 #: options/preferences.py:203
 msgid "How affirmative/negative positions are assigned (see documentation for further details)"
-msgstr ""
+msgstr "Come vengono assegnate posizioni pro/contro (vedi documentazione per ulteriori dettagli)"
 
 #: options/preferences.py:204
 msgid "Side allocations method"
-msgstr ""
+msgstr "Metodo assegnazione side"
 
 #: options/preferences.py:208 options/preferences.py:225
 msgid "Random"
-msgstr ""
+msgstr "Casuale"
 
 #: options/preferences.py:209
 msgid "Balance"
-msgstr ""
+msgstr "Bilanciato"
 
 #: options/preferences.py:210
 msgid "Pre-allocated"
-msgstr ""
+msgstr "Preassegnato"
 
 #: options/preferences.py:211
 msgid "Manually enter from ballot"
-msgstr ""
+msgstr "Inserimento manuale dal ballot"
 
 #: options/preferences.py:218
 msgid "Slide: 1 vs 6, 2 vs 7, …. Fold: 1 vs 10, 2 vs 9, …. Adjacent: 1 vs 2, 3 vs 4, …."
-msgstr ""
+msgstr "Scivola: 1 vs 6, 2 vs 7, …. Incrocia: 1 vs 10, 2 vs 9, …. Adiacente: 1 vs 2, 3 vs 4, …."
 
 #: options/preferences.py:219
 msgid "Pairing method"
-msgstr ""
+msgstr "Metodo di accoppiamento"
 
 #: options/preferences.py:223
 msgid "Slide"
-msgstr ""
+msgstr "Scivola"
 
 #: options/preferences.py:224
 msgid "Fold"
-msgstr ""
+msgstr "Incrocia"
 
 #: options/preferences.py:226
 msgid "Adjacent"
-msgstr ""
+msgstr "Adiacente"
 
 #: options/preferences.py:227
 msgid "Fold top, adjacent rest"
-msgstr ""
+msgstr "Incrocia in alto, il resto adiacente"
 
 #: options/preferences.py:234
 msgid "Method used to try to avoid teams facing each other multiple times or their own institution (see documentation for further details)"
-msgstr ""
+msgstr "Metodo utilizzato per cercare di evitare che le squadre si affrontino più volte o il proprio istituto (vedi documentazione per ulteriori dettagli)"
 
 #: options/preferences.py:236
 msgid "Conflict avoidance method"
-msgstr ""
+msgstr "Metodo di prevenzione dei conflitti"
 
 #: options/preferences.py:240
 msgid "Off"
-msgstr ""
+msgstr "Off"
 
 #: options/preferences.py:241
 msgid "One-up-one-down"
-msgstr ""
+msgstr "Uno sù-uno giù"
 
 #: options/preferences.py:248
 msgid "If using pull-ups, restrict which teams can be pulled up. Two-team formats only. Has no effect on BP or intermediate brackets."
-msgstr ""
+msgstr "Se si utilizzano gli spostamenti, limitare quali squadre possono essere spostate. Soloformati a due squadre. Non ha alcun effetto su BP o gruppi intermedi."
 
 #: options/preferences.py:250
 msgid "Pullup restriction"
-msgstr ""
+msgstr "Limitaazioni a portare su"
 
 #: options/preferences.py:254
 msgid "No restriction"
-msgstr ""
+msgstr "Nessuna limitazione"
 
 #: options/preferences.py:255
 msgid "Choose from teams who have been pulled up the fewest times so far"
-msgstr ""
+msgstr "Scegli tra le squadre che sono state tirate in alto il minor numero di volte finora"
 
 #: options/preferences.py:256
 msgid "Choose from teams with the lowest draw strength by wins so far"
-msgstr ""
+msgstr "Scegli tra squadre con la forza dei dibattiti vinti più bassi finora"
 
 #: options/preferences.py:257
 msgid "Choose from teams with the lowest draw strength by speaks so far"
