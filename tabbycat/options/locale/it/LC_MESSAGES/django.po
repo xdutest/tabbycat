@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-18 17:06\n"
+"PO-Revision-Date: 2022-04-19 10:51\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -104,91 +104,91 @@ msgstr "Il margine include i dissidenti"
 
 #: options/preferences.py:98
 msgid "If checked, all speaker scores, including for duplicate speeches, will be counted for team scores"
-msgstr ""
+msgstr "Se selezionato, verranno contati per i punteggi della squadra tutti i punteggi degli speaker, anche gli speech duplicati"
 
 #: options/preferences.py:99
 msgid "Team score includes ghosts"
-msgstr ""
+msgstr "Il punteggio della squadra include i ghost"
 
 #: options/preferences.py:106 options/templates/preferences_index.html:58
 msgid "Draw Rules"
-msgstr ""
+msgstr "Regole del sorteggio"
 
 #: options/preferences.py:112
 msgid "The auto-allocator will only take adjudicators at or above this score as voting panellists"
-msgstr ""
+msgstr "Il sistema automatico prenderà solo gli giudici a questo punteggio o superiore come giudici votanti"
 
 #: options/preferences.py:113
 msgid "Minimum adjudicator score to vote"
-msgstr ""
+msgstr "Punteggio minimo giudice per votare"
 
 #: options/preferences.py:121
 msgid "Penalty applied by adjudicator auto-allocator for conflicts"
-msgstr ""
+msgstr "Penalità applicata a causa conflitti dal sistema automatico dei giudici"
 
 #: options/preferences.py:122
 msgid "Adjudicator conflict penalty"
-msgstr ""
+msgstr "Penalità conflitto giudice"
 
 #: options/preferences.py:130
 msgid "Penalty applied by adjudicator auto-allocator for history"
-msgstr ""
+msgstr "Penalità applicata a causa di cronologia dal sistema automatico dei giudici"
 
 #: options/preferences.py:131
 msgid "Adjudicator history penalty"
-msgstr ""
+msgstr "Penalità cronologia giudice"
 
 #: options/preferences.py:139
 msgid "Penality applied by preformed panel auto-allocator for priority mismatch"
-msgstr ""
+msgstr "Penalità applicata dal sistema automatico del pannello preformato per la mancata corrispondenza di priorità"
 
 #: options/preferences.py:140
 msgid "Importance mismatch penalty"
-msgstr ""
+msgstr "Penalità di disallineamento importanza"
 
 #: options/preferences.py:148
 msgid "Penalty applied by conflict avoidance method for teams seeing their own institution"
-msgstr ""
+msgstr "Penalità applicata con metodo di prevenzione dei conflitti per le squadre che incontrano il proprio istituto"
 
 #: options/preferences.py:149
 msgid "Team institution penalty"
-msgstr ""
+msgstr "Penalità istituto squadra"
 
 #: options/preferences.py:157
 msgid "Penalty applied by conflict avoidance method for teams seeing each other twice or more"
-msgstr ""
+msgstr "Penalità applicata con metodo di prevenzione dei conflitti per le squadre che si incontrano due o più volte"
 
 #: options/preferences.py:158
 msgid "Team history penalty"
-msgstr ""
+msgstr "Penalità cronologia squadra"
 
 #: options/preferences.py:166
 msgid "If checked, the draw will try to avoid pairing teams against their own institution"
-msgstr ""
+msgstr "Se selezionato, il sorteggio cercherà di evitare l'accoppiamento di squadre contro il proprio istituto"
 
 #: options/preferences.py:167
 msgid "Avoid same institution"
-msgstr ""
+msgstr "Evitare lo stesso istituto"
 
 #: options/preferences.py:175
 msgid "If checked, the draw will try to avoid having teams see each other twice"
-msgstr ""
+msgstr "Se selezionato, il sorteggio cercherà di evitare che le squadre si incontrino due volte"
 
 #: options/preferences.py:176
 msgid "Avoid team history"
-msgstr ""
+msgstr "Evita la cronologia team"
 
 #: options/preferences.py:184
 msgid "How odd brackets are resolved (see documentation for further details)"
-msgstr ""
+msgstr "Come si gestiscono i gruppi dispari (vedere la documentazione per ulteriori dettagli)"
 
 #: options/preferences.py:185
 msgid "Odd bracket resolution method"
-msgstr ""
+msgstr "Metodo di gestione gruppi dispari"
 
 #: options/preferences.py:189
 msgid "Pull up from top"
-msgstr ""
+msgstr "Estrai dall'alto"
 
 #: options/preferences.py:190
 msgid "Pull up from bottom"
