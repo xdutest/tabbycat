@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-04-19 11:20\n"
+"PO-Revision-Date: 2022-04-19 11:41\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -316,47 +316,47 @@ msgstr "Distribuzione spostamenti BP"
 
 #: options/preferences.py:269
 msgid "Anywhere in bracket"
-msgstr ""
+msgstr "Ovunque nel gruppo"
 
 #: options/preferences.py:270
 msgid "All in the same room (not WUDC-compliant)"
-msgstr ""
+msgstr "Tutto nella stessa stanza (non conforme a WUDC)"
 
 #: options/preferences.py:277
 msgid "In BP, which position cost function to use (see documentation for details)"
-msgstr ""
+msgstr "In BP, quale funzione di costo della posizione da utilizzare (vedi documentazione per dettagli)"
 
 #: options/preferences.py:278
 msgid "BP position cost"
-msgstr ""
+msgstr "Costo posizione BP"
 
 #: options/preferences.py:282
 msgid "Simple"
-msgstr ""
+msgstr "Semplice"
 
 #: options/preferences.py:283
 msgid "Rényi entropy"
-msgstr ""
+msgstr "Rényi entropy"
 
 #: options/preferences.py:284
 msgid "Population variance"
-msgstr ""
+msgstr "Varianza di popolazione"
 
 #: options/preferences.py:291
 msgid "Rényi order α, if BP position cost uses Rényi entropy. Shannon is α = 1, Hartley is α = 0, collision is α = 2. See documentation for details."
-msgstr ""
+msgstr "Rényi order α, se il costo di una posizione BP usa Rényi entropy. Shannon è α = 1, Hartley è α = 0, la collisione è α = 2. Vedere la documentazione per i dettagli."
 
 #: options/preferences.py:294
 msgid "Rényi order (BP)"
-msgstr ""
+msgstr "Rényi order (BP)"
 
 #: options/preferences.py:303
 msgid "The BP position cost is raised to this power; higher exponents bias towards resolving fewer large position imbalances over more small ones. See documentation for details."
-msgstr ""
+msgstr "Il costo della posizione BP è aumentato a questa base: esponenti più elevati tendono a risolvere meno squilibri di posizione di grandi dimensioni su quelli più piccoli. Vedere la documentazione per i dettagli."
 
 #: options/preferences.py:306
 msgid "BP position cost exponent"
-msgstr ""
+msgstr "Costo esponente posizione BP"
 
 #: options/preferences.py:315
 msgid "In BP, which method to use to solve the assignment problem. Only Hungarian with preshuffling is WUDC-compliant."
