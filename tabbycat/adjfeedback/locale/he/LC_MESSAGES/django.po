@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2021-04-02 04:50\n"
+"PO-Revision-Date: 2022-04-22 17:07\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -734,7 +734,7 @@ msgstr ""
 
 #: adjfeedback/templates/overview_breakdowns.html:43
 msgid "Base"
-msgstr ""
+msgstr "בסיס"
 
 #: adjfeedback/templates/overview_breakdowns.html:49
 msgid "Feedback"
