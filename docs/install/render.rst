@@ -42,7 +42,7 @@ On the next page, take a precise note of the **Hostname** and **Port** text. You
 ========================
 
 .. image:: https://render.com/images/deploy-to-render-button.svg
-  :target: https://render.com/deploy?repo=https://github.com/TabbycatDebate/tabbycat/tree/feature/render
+  :target: https://render.com/deploy?repo=https://github.com/TabbycatDebate/tabbycat/tree/feature/render-final
 
 Click the button above. Enter whatever you want as the **Service Group Name** and leave "Branch" as it is.
 
